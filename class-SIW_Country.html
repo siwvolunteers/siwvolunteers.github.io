@@ -74,16 +74,28 @@
 						</a>
 							<ul>
 					<li>
+						<a href="package-SIW.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="package-SIW.API.html">
+							API						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Background.Process.html">
 							Background-Process						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Cookie.Notification.html">
-							Cookie-Notification						</a>
+						<a href="package-SIW.Compatibility.html">
+							Compatibility						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Email.html">
 							Email						</a>
+							</li>
+					<li>
+						<a href="package-SIW.External.html">
+							External						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maintenance.Mode.html">
@@ -94,8 +106,24 @@
 							Maps						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Plato.html">
+							Plato						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Reference.Data.html">
 							Reference-Data						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Widgets.html">
+							Widgets						</a>
+							</li>
+					<li>
+						<a href="package-SIW.WooCommerce.html">
+							WooCommerce						</a>
 							</li>
 								</ul></li>
 			</ul>
@@ -108,6 +136,8 @@
 				<li><a href="class-SIW_Continent.html">SIW_Continent</a></li>
 				<li class="active"><a href="class-SIW_Country.html">SIW_Country</a></li>
 				<li><a href="class-SIW_Currency.html">SIW_Currency</a></li>
+				<li><a href="class-SIW_Language.html">SIW_Language</a></li>
+				<li><a href="class-SIW_Social_Network.html">SIW_Social_Network</a></li>
 				<li><a href="class-SIW_Work_Type.html">SIW_Work_Type</a></li>
 			</ul>
 
@@ -117,18 +147,20 @@
 
 			<h3>Functions</h3>
 			<ul>
-				<li><a href="function-siw_configuration_page.html">siw_configuration_page</a></li>
-				<li><a href="function-siw_get_configuration.html">siw_get_configuration</a></li>
 				<li><a href="function-siw_get_continent.html">siw_get_continent</a></li>
 				<li><a href="function-siw_get_continents.html">siw_get_continents</a></li>
 				<li><a href="function-siw_get_countries.html">siw_get_countries</a></li>
 				<li><a href="function-siw_get_country.html">siw_get_country</a></li>
 				<li><a href="function-siw_get_currencies.html">siw_get_currencies</a></li>
 				<li><a href="function-siw_get_currency.html">siw_get_currency</a></li>
-				<li><a href="function-siw_get_exchange_rates.html">siw_get_exchange_rates</a></li>
+				<li><a href="function-siw_get_genders.html">siw_get_genders</a></li>
+				<li><a href="function-siw_get_language.html">siw_get_language</a></li>
+				<li><a href="function-siw_get_language_skill_levels.html">siw_get_language_skill_levels</a></li>
+				<li><a href="function-siw_get_languages.html">siw_get_languages</a></li>
+				<li><a href="function-siw_get_nationalities.html">siw_get_nationalities</a></li>
+				<li><a href="function-siw_get_social_networks.html">siw_get_social_networks</a></li>
 				<li><a href="function-siw_get_work_type.html">siw_get_work_type</a></li>
 				<li><a href="function-siw_get_work_types.html">siw_get_work_types</a></li>
-				<li><a href="function-siw_retrieve_exchange_rates.html">siw_retrieve_exchange_rates</a></li>
 			</ul>
 		</div>
 	</div>
@@ -164,7 +196,7 @@
 				2018 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Country.html#7-343" title="Go to source code">reference-data/countries/class-siw-country.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Country.html#7-342" title="Go to source code">reference-data/countries/class-siw-country.php</a>
 		<br>
 	</div>
 
@@ -439,7 +471,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_continent">#</a>
-			<code><a href="source-class-SIW_Country.html#180-193" title="Go to source code">set_continent</a>( <span><code><a href="class-SIW_Continent.html">SIW_Continent</a></code>|string <var>$continent</var></span> )</code>
+			<code><a href="source-class-SIW_Country.html#180-192" title="Go to source code">set_continent</a>( <span><code><a href="class-SIW_Continent.html">SIW_Continent</a></code>|string <var>$continent</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet continent van het project</p>
@@ -478,7 +510,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_continent">#</a>
-			<code><a href="source-class-SIW_Country.html#195-202" title="Go to source code">get_continent</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#194-201" title="Go to source code">get_continent</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft continent van land terug</p>
@@ -512,7 +544,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_allowed">#</a>
-			<code><a href="source-class-SIW_Country.html#204-213" title="Go to source code">set_allowed</a>( <span>boolean <var>$allowed</var></span> )</code>
+			<code><a href="source-class-SIW_Country.html#203-212" title="Go to source code">set_allowed</a>( <span>boolean <var>$allowed</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet of land toegestaan is</p>
@@ -551,7 +583,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_is_allowed">#</a>
-			<code><a href="source-class-SIW_Country.html#215-222" title="Go to source code">is_allowed</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#214-221" title="Go to source code">is_allowed</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft aan of land toegestaan is</p>
@@ -585,7 +617,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_has_workcamps">#</a>
-			<code><a href="source-class-SIW_Country.html#224-233" title="Go to source code">set_has_workcamps</a>( <span>boolean <var>$has_workcamps</var></span> )</code>
+			<code><a href="source-class-SIW_Country.html#223-232" title="Go to source code">set_has_workcamps</a>( <span>boolean <var>$has_workcamps</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet of het land groepsprojecten heeft</p>
@@ -624,7 +656,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_has_workcamps">#</a>
-			<code><a href="source-class-SIW_Country.html#235-242" title="Go to source code">has_workcamps</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#234-241" title="Go to source code">has_workcamps</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft aan of het land groepsprojecten heeft</p>
@@ -647,7 +679,7 @@
 			</div></td>
 		</tr>
 
-		<tr data-order="set_has_evs_projects" id="_set_has_evs_projects">
+		<tr data-order="set_has_esc_projects" id="_set_has_esc_projects">
 
 			<td class="attributes"><code>
 				 public 
@@ -657,20 +689,20 @@
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_set_has_evs_projects">#</a>
-			<code><a href="source-class-SIW_Country.html#244-253" title="Go to source code">set_has_evs_projects</a>( <span>boolean <var>$has_evs_projects</var></span> )</code>
+			<a class="anchor" href="#_set_has_esc_projects">#</a>
+			<code><a href="source-class-SIW_Country.html#243-252" title="Go to source code">set_has_esc_projects</a>( <span>boolean <var>$has_esc_projects</var></span> )</code>
 
 			<div class="description short">
-				<p>Zet of het land EVS-projecten heeft</p>
+				<p>Zet of het land ESC-projecten heeft</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Zet of het land EVS-projecten heeft</p>
+				<p>Zet of het land ESC-projecten heeft</p>
 
 
 					<h4>Parameters</h4>
 					<div class="list"><dl>
-						<dt><var>$has_evs_projects</var></dt>
+						<dt><var>$has_esc_projects</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -686,7 +718,7 @@
 			</div></td>
 		</tr>
 
-		<tr data-order="has_evs_projects" id="_has_evs_projects">
+		<tr data-order="has_esc_projects" id="_has_esc_projects">
 
 			<td class="attributes"><code>
 				 public 
@@ -696,15 +728,15 @@
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_has_evs_projects">#</a>
-			<code><a href="source-class-SIW_Country.html#255-262" title="Go to source code">has_evs_projects</a>( )</code>
+			<a class="anchor" href="#_has_esc_projects">#</a>
+			<code><a href="source-class-SIW_Country.html#254-261" title="Go to source code">has_esc_projects</a>( )</code>
 
 			<div class="description short">
-				<p>Geeft aan of het land EVS-projecten heeft</p>
+				<p>Geeft aan of het land ESC-projecten heeft</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Geeft aan of het land EVS-projecten heeft</p>
+				<p>Geeft aan of het land ESC-projecten heeft</p>
 
 
 
@@ -731,7 +763,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_has_tailor_made_projects">#</a>
-			<code><a href="source-class-SIW_Country.html#264-273" title="Go to source code">set_has_tailor_made_projects</a>( <span>boolean <var>$has_tailor_made_projects</var></span> )</code>
+			<code><a href="source-class-SIW_Country.html#263-272" title="Go to source code">set_has_tailor_made_projects</a>( <span>boolean <var>$has_tailor_made_projects</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet of het land Op Maat projecten heeft</p>
@@ -770,7 +802,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_has_tailor_made_projects">#</a>
-			<code><a href="source-class-SIW_Country.html#275-282" title="Go to source code">has_tailor_made_projects</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#274-281" title="Go to source code">has_tailor_made_projects</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft aan of het land Op Maat projecten heeft</p>
@@ -804,7 +836,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_world_map_data">#</a>
-			<code><a href="source-class-SIW_Country.html#284-293" title="Go to source code">set_world_map_data</a>( <span>array <var>$world_map_data</var></span> )</code>
+			<code><a href="source-class-SIW_Country.html#283-292" title="Go to source code">set_world_map_data</a>( <span>array <var>$world_map_data</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet de gegevens van het land voor de kaart van de wereld</p>
@@ -843,7 +875,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_world_map_data">#</a>
-			<code><a href="source-class-SIW_Country.html#295-302" title="Go to source code">get_world_map_data</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#294-301" title="Go to source code">get_world_map_data</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft de gegevens van het land voor de kaart van de wereld terug</p>
@@ -877,7 +909,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_europe_map_data">#</a>
-			<code><a href="source-class-SIW_Country.html#303-312" title="Go to source code">set_europe_map_data</a>( <span>array <var>$europe_map_data</var></span> )</code>
+			<code><a href="source-class-SIW_Country.html#302-311" title="Go to source code">set_europe_map_data</a>( <span>array <var>$europe_map_data</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet de gegevens van het land voor de kaart van Europa</p>
@@ -916,7 +948,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_europe_map_data">#</a>
-			<code><a href="source-class-SIW_Country.html#314-321" title="Go to source code">get_europe_map_data</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#313-320" title="Go to source code">get_europe_map_data</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft de gegevens van het land voor de kaart van Europa terug</p>
@@ -950,7 +982,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_specialist">#</a>
-			<code><a href="source-class-SIW_Country.html#323-342" title="Go to source code">get_specialist</a>( )</code>
+			<code><a href="source-class-SIW_Country.html#322-341" title="Go to source code">get_specialist</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft regiospecialist van het land terug</p>
@@ -1145,27 +1177,27 @@
 			</td>
 		</tr>
 
-		<tr data-order="has_evs_projects" id="$has_evs_projects">
+		<tr data-order="has_esc_projects" id="$has_esc_projects">
 			<td class="attributes"><code>
 				protected  
 				boolean
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Country.html#58-63" title="Go to source code"><var>$has_evs_projects</var></a>
+					<a href="source-class-SIW_Country.html#58-63" title="Go to source code"><var>$has_esc_projects</var></a>
 
 				<div class="description short">
-					<p>Geeft aan of het land EVS-projecten heeft</p>
+					<p>Geeft aan of het land ESC-projecten heeft</p>
 				</div>
 
 				<div class="description detailed hidden">
-					<p>Geeft aan of het land EVS-projecten heeft</p>
+					<p>Geeft aan of het land ESC-projecten heeft</p>
 
 				</div>
 			</td>
 			<td class="value">
 				<div>
-					<a href="#$has_evs_projects" class="anchor">#</a>
+					<a href="#$has_esc_projects" class="anchor">#</a>
 					<code></code>
 				</div>
 			</td>

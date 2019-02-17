@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class SIW_WC_Checkout | SIW</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?68795dbd0b7233cb5216e541a9cc0dc436f7b2c9">
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">
+          <img src="resources/logo.png?63bdbe9f442d0108bbc5f3a56ff1baeffd140948">
+        </a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+					</li>
+
+						<li>
+							<a href="annotation-group-deprecated.html" title="List of elements with deprecated annotation">
+								<span>Deprecated</span>
+							</a>
+						</li>
+						<li>
+							<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+								<span>Todo</span>
+							</a>
+						</li>
+
+					<li class="hooks">
+						<a href="hook-docs.html" title="Hooks"><span>Hooks</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-None.html">
+							None						</a>
+							</li>
+					<li>
+						<a href="package-SIW.html">
+							SIW<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-SIW.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="package-SIW.API.html">
+							API						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Background.Process.html">
+							Background-Process						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Compatibility.html">
+							Compatibility						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Email.html">
+							Email						</a>
+							</li>
+					<li>
+						<a href="package-SIW.External.html">
+							External						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Maintenance.Mode.html">
+							Maintenance-Mode						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Maps.html">
+							Maps						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Plato.html">
+							Plato						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Reference.Data.html">
+							Reference-Data						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Widgets.html">
+							Widgets						</a>
+							</li>
+					<li>
+						<a href="package-SIW.WooCommerce.html">
+							WooCommerce						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-SIW_WC_Admin_Order.html">SIW_WC_Admin_Order</a></li>
+				<li><a href="class-SIW_WC_Admin_Order_Columns.html">SIW_WC_Admin_Order_Columns</a></li>
+				<li><a href="class-SIW_WC_Admin_Product.html">SIW_WC_Admin_Product</a></li>
+				<li><a href="class-SIW_WC_Admin_Product_Columns.html">SIW_WC_Admin_Product_Columns</a></li>
+				<li class="active"><a href="class-SIW_WC_Checkout.html">SIW_WC_Checkout</a></li>
+				<li><a href="class-SIW_WC_Checkout_Newsletter.html">SIW_WC_Checkout_Newsletter</a></li>
+				<li><a href="class-SIW_WC_Email_Customer_On_Hold_Order.html">SIW_WC_Email_Customer_On_Hold_Order</a></li>
+				<li><a href="class-SIW_WC_Email_Customer_Processing_Order.html">SIW_WC_Email_Customer_Processing_Order</a></li>
+				<li><a href="class-SIW_WC_Email_New_Order.html">SIW_WC_Email_New_Order</a></li>
+				<li><a href="class-SIW_WC_Emails.html">SIW_WC_Emails</a></li>
+				<li><a href="class-SIW_WC_Product.html">SIW_WC_Product</a></li>
+				<li><a href="class-SIW_WC_Product_Archive.html">SIW_WC_Product_Archive</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class SIW_WC_Checkout</h1>
+
+
+	<div class="description">
+	<p>WooCommerce checkout</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-SIW.html">SIW</a>\<a href="package-SIW.WooCommerce.html">WooCommerce</a><br>
+
+				<b>Copyright:</b>
+				2018 SIW Internationale Vrijwilligersprojecten<br>
+				<b>Author:</b>
+				Maarten Bruna<br>
+				<b>Uses:</b>
+				<code><a href="class-SIW_Properties.html">SIW_Properties</a></code><br>
+				<b>Uses:</b>
+				<code><a href="class-SIW_Util.html">SIW_Util</a></code><br>
+			<b>Located at</b> <a href="source-class-SIW_WC_Checkout.html#7-405" title="Go to source code">woocommerce/class-siw-wc-checkout.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+			
+		<tr data-order="init" id="_init">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_init">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#19-51" title="Go to source code">init</a>( )</code>
+
+			<div class="description short">
+				<p>Init</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Init</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="remove_locale_field_selectors" id="_remove_locale_field_selectors">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_remove_locale_field_selectors">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#53-65" title="Go to source code">remove_locale_field_selectors</a>( <span>array <var>$locale_fields</var></span> )</code>
+
+			<div class="description short">
+				<p>Undocumented function</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Undocumented function</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$locale_fields</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							is dit wel nodig?<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="remove_locale_postcode_priority" id="_remove_locale_postcode_priority">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_remove_locale_postcode_priority">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#67-76" title="Go to source code">remove_locale_postcode_priority</a>( <span>array <var>$locale</var></span> )</code>
+
+			<div class="description short">
+				<p>Verwijdert aangepaste prioriteit voor postcode</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Verwijdert aangepaste prioriteit voor postcode</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$locale</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="calculate_discounts" id="_calculate_discounts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_calculate_discounts">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#78-109" title="Go to source code">calculate_discounts</a>( <span>WC_Cart <var>$cart</var></span> )</code>
+
+			<div class="description short">
+				<p>Past korting toe bij meerdere projecten</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Past korting toe bij meerdere projecten</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cart</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							hoort dit wel bij de checkout?<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_form_field_markup" id="_add_form_field_markup">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_form_field_markup">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#111-120" title="Go to source code">add_form_field_markup</a>( <span>string <var>$field</var></span> )</code>
+
+			<div class="description short">
+				<p>Voegt extra markup voor gestylde radiobuttons en checkboxes toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt extra markup voor gestylde radiobuttons en checkboxes toe</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$field</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_form_field_classes" id="_add_form_field_classes">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_form_field_classes">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#122-136" title="Go to source code">add_form_field_classes</a>( <span>array <var>$args</var></span> )</code>
+
+			<div class="description short">
+				<p>Voegt extra classes voor gestylde radiobuttons en checkboxes toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt extra classes voor gestylde radiobuttons en checkboxes toe</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$args</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_checkout_fields" id="_get_checkout_fields">
+
+			<td class="attributes"><code>
+				 protected 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_checkout_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#138-152" title="Go to source code">get_checkout_fields</a>( <span>array <var>$checkout_fields</var> = [] </span> )</code>
+
+			<div class="description short">
+				<p>Undocumented function</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Undocumented function</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$checkout_fields</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_checkout_sections" id="_get_checkout_sections">
+
+			<td class="attributes"><code>
+				 protected 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_checkout_sections">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#154-168" title="Go to source code">get_checkout_sections</a>( )</code>
+
+			<div class="description short">
+				<p>Undocumented function</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Undocumented function</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="show_checkout_partner_fields" id="_show_checkout_partner_fields">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_show_checkout_partner_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#170-194" title="Go to source code">show_checkout_partner_fields</a>( <span>WC_Checkout <var>$checkout</var></span> )</code>
+
+			<div class="description short">
+				<p>Toont de extra checkoutvelden</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Toont de extra checkoutvelden</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$checkout</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="save_checkout_fields" id="_save_checkout_fields">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_save_checkout_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#196-216" title="Go to source code">save_checkout_fields</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$data</var></span> )</code>
+
+			<div class="description short">
+				<p>Slaat de extra checkoutvelden op</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Slaat de extra checkoutvelden op</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$order</var></dt>
+						<dd></dd>
+						<dt><var>$data</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="set_default_address_fields" id="_set_default_address_fields">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_default_address_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#218-232" title="Go to source code">set_default_address_fields</a>( <span>array <var>$address_fields</var></span> )</code>
+
+			<div class="description short">
+				<p>Past de volgorde van de adresvelden aan</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Past de volgorde van de adresvelden aan</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$address_fields</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="set_billing_fields" id="_set_billing_fields">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_billing_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#234-245" title="Go to source code">set_billing_fields</a>( <span>array <var>$billing_fields</var></span>, <span>array <var>$country</var></span> )</code>
+
+			<div class="description short">
+				<p>Zet de classes voor de billing velden</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Zet de classes voor de billing velden</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$billing_fields</var></dt>
+						<dd></dd>
+						<dt><var>$country</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_checkout_fields" id="_add_checkout_fields">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_checkout_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#247-256" title="Go to source code">add_checkout_fields</a>( <span>array <var>$checkout_fields</var></span> )</code>
+
+			<div class="description short">
+				<p>Voegt de extra checkoutvelden toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt de extra checkoutvelden toe</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$checkout_fields</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="set_term_checkbox_text" id="_set_term_checkbox_text">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_term_checkbox_text">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#258-268" title="Go to source code">set_term_checkbox_text</a>( <span>string <var>$text</var></span> )</code>
+
+			<div class="description short">
+				<p>Past link naar voorwaarden-modal aan</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Past link naar voorwaarden-modal aan</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$text</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_terms_modal" id="_add_terms_modal">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_terms_modal">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#270-278" title="Go to source code">add_terms_modal</a>( <span>WC_Checkout <var>$checkout</var></span> )</code>
+
+			<div class="description short">
+				<p>Voegt html voor voorwaarden-modal toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt html voor voorwaarden-modal toe</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$checkout</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_validation_script" id="_add_validation_script">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_validation_script">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#280-312" title="Go to source code">add_validation_script</a>( )</code>
+
+			<div class="description short">
+				<p>Voegt extra client-side validatie toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt extra client-side validatie toe</p>
+
+<ul>
+<li>Postcode</li>
+<li>Datum</li>
+</ul>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_postcode_script" id="_add_postcode_script">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_postcode_script">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#314-327" title="Go to source code">add_postcode_script</a>( )</code>
+
+			<div class="description short">
+				<p>Voegt inline script voor postcode lookup toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt inline script voor postcode lookup toe</p>
+
+
+
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							inline script bij siw-postcode ipv wc-checkout<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="validate_checkout_fields" id="_validate_checkout_fields">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_checkout_fields">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#329-351" title="Go to source code">validate_checkout_fields</a>( <span>array <var>$data</var></span>, <span>WP_Error <var>$errors</var></span> )</code>
+
+			<div class="description short">
+				<p>Voert validatie voor extra checkout velden uit</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voert validatie voor extra checkout velden uit</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data</var></dt>
+						<dd></dd>
+						<dt><var>$errors</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							minimum/maximum-leeftijd van project gebruiken<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="format_postcode" id="_format_postcode">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_format_postcode">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#353-367" title="Go to source code">format_postcode</a>( <span>string <var>$postcode</var></span>, <span>string <var>$country</var></span> )</code>
+
+			<div class="description short">
+				<p>Formatteert Nederlandse postcodes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Formatteert Nederlandse postcodes</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$postcode</var></dt>
+						<dd></dd>
+						<dt><var>$country</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+					<h4>Link</h4>
+					<div class="list">
+							<a href="https://github.com/woocommerce/woocommerce/pull/22316">https://github.com/woocommerce/woocommerce/pull/22316</a><br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="validate_postcode" id="_validate_postcode">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_postcode">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#369-384" title="Go to source code">validate_postcode</a>( <span>boolean <var>$valid</var></span>, <span>string <var>$postcode</var></span>, <span>string <var>$country</var></span> )</code>
+
+			<div class="description short">
+				<p>Voegt validatie voor Nederlandse postcodes toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt validatie voor Nederlandse postcodes toe</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$valid</var></dt>
+						<dd></dd>
+						<dt><var>$postcode</var></dt>
+						<dd></dd>
+						<dt><var>$country</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+					<h4>Link</h4>
+					<div class="list">
+							<a href="https://github.com/woocommerce/woocommerce/pull/22316">https://github.com/woocommerce/woocommerce/pull/22316</a><br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="set_checkout_templates" id="_set_checkout_templates">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_checkout_templates">#</a>
+			<code><a href="source-class-SIW_WC_Checkout.html#386-404" title="Go to source code">set_checkout_templates</a>( <span>string <var>$located</var></span>, <span>array <var>$template_name</var></span>, <span>string <var>$args</var></span>, <span>string <var>$template_path</var></span>, <span>string <var>$default_path</var></span> )</code>
+
+			<div class="description short">
+				<p>Overschrijft templates</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Overschrijft templates</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$located</var></dt>
+						<dd></dd>
+						<dt><var>$template_name</var></dt>
+						<dd></dd>
+						<dt><var>$args</var></dt>
+						<dd></dd>
+						<dt><var>$template_path</var></dt>
+						<dd></dd>
+						<dt><var>$default_path</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		SIW API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

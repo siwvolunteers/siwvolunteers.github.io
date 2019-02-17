@@ -74,16 +74,28 @@
 						</a>
 							<ul>
 					<li>
+						<a href="package-SIW.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="package-SIW.API.html">
+							API						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Background.Process.html">
 							Background-Process						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Cookie.Notification.html">
-							Cookie-Notification						</a>
+						<a href="package-SIW.Compatibility.html">
+							Compatibility						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Email.html">
 							Email						</a>
+							</li>
+					<li>
+						<a href="package-SIW.External.html">
+							External						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maintenance.Mode.html">
@@ -93,9 +105,25 @@
 						<a href="package-SIW.Maps.html">
 							Maps						</a>
 							</li>
+					<li>
+						<a href="package-SIW.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Plato.html">
+							Plato						</a>
+							</li>
 					<li class="active">
 						<a href="package-SIW.Reference.Data.html">
 							Reference-Data						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Widgets.html">
+							Widgets						</a>
+							</li>
+					<li>
+						<a href="package-SIW.WooCommerce.html">
+							WooCommerce						</a>
 							</li>
 								</ul></li>
 			</ul>
@@ -108,6 +136,8 @@
 				<li><a href="class-SIW_Continent.html">SIW_Continent</a></li>
 				<li><a href="class-SIW_Country.html">SIW_Country</a></li>
 				<li><a href="class-SIW_Currency.html">SIW_Currency</a></li>
+				<li><a href="class-SIW_Language.html">SIW_Language</a></li>
+				<li><a href="class-SIW_Social_Network.html">SIW_Social_Network</a></li>
 				<li><a href="class-SIW_Work_Type.html">SIW_Work_Type</a></li>
 			</ul>
 
@@ -117,18 +147,20 @@
 
 			<h3>Functions</h3>
 			<ul>
-				<li><a href="function-siw_configuration_page.html">siw_configuration_page</a></li>
-				<li><a href="function-siw_get_configuration.html">siw_get_configuration</a></li>
 				<li><a href="function-siw_get_continent.html">siw_get_continent</a></li>
 				<li><a href="function-siw_get_continents.html">siw_get_continents</a></li>
 				<li><a href="function-siw_get_countries.html">siw_get_countries</a></li>
 				<li><a href="function-siw_get_country.html">siw_get_country</a></li>
 				<li><a href="function-siw_get_currencies.html">siw_get_currencies</a></li>
 				<li><a href="function-siw_get_currency.html">siw_get_currency</a></li>
-				<li><a href="function-siw_get_exchange_rates.html">siw_get_exchange_rates</a></li>
+				<li><a href="function-siw_get_genders.html">siw_get_genders</a></li>
+				<li><a href="function-siw_get_language.html">siw_get_language</a></li>
+				<li><a href="function-siw_get_language_skill_levels.html">siw_get_language_skill_levels</a></li>
+				<li><a href="function-siw_get_languages.html">siw_get_languages</a></li>
+				<li><a href="function-siw_get_nationalities.html">siw_get_nationalities</a></li>
+				<li><a href="function-siw_get_social_networks.html">siw_get_social_networks</a></li>
 				<li><a href="function-siw_get_work_type.html">siw_get_work_type</a></li>
 				<li><a href="function-siw_get_work_types.html">siw_get_work_types</a></li>
-				<li><a href="function-siw_retrieve_exchange_rates.html">siw_retrieve_exchange_rates</a></li>
 			</ul>
 		</div>
 	</div>
@@ -159,6 +191,14 @@
 	<td>Bevat informatie over een valuta</td>
 </tr>
 <tr>
+	<td class="name"><a href="class-SIW_Language.html">SIW_Language</a></td>
+	<td>Bevat informatie over een taal</td>
+</tr>
+<tr>
+	<td class="name"><a href="class-SIW_Social_Network.html">SIW_Social_Network</a></td>
+	<td>Bevat informatie over een sociaal netwerk</td>
+</tr>
+<tr>
 	<td class="name"><a href="class-SIW_Work_Type.html">SIW_Work_Type</a></td>
 	<td>Bevat informatie over een soort werk</td>
 </tr>
@@ -172,14 +212,6 @@
 <div class="panel panel-default">
     <div class="panel-heading"><h2>Functions summary</h2></div>
 	<table class="summary table table-bordered table-striped" id="functions">
-<tr>
-	<td class="name"><a href="function-siw_configuration_page.html">siw_configuration_page</a></td>
-	<td>Toon overzichtspagina met constantes</td>
-</tr>
-<tr>
-	<td class="name"><a href="function-siw_get_configuration.html">siw_get_configuration</a></td>
-	<td>Geeft array met configuratie-constantes terug</td>
-</tr>
 <tr>
 	<td class="name"><a href="function-siw_get_continent.html">siw_get_continent</a></td>
 	<td>Haal gegevens van continent op (op basis van slug)</td>
@@ -205,8 +237,28 @@
 	<td>Geeft informatie over een valuta terug</td>
 </tr>
 <tr>
-	<td class="name"><a href="function-siw_get_exchange_rates.html">siw_get_exchange_rates</a></td>
-	<td>Geeft array met wisselkoersen terug</td>
+	<td class="name"><a href="function-siw_get_genders.html">siw_get_genders</a></td>
+	<td>Geeft een array met geslachten terug</td>
+</tr>
+<tr>
+	<td class="name"><a href="function-siw_get_language.html">siw_get_language</a></td>
+	<td>Geeft informatie over een taal terug</td>
+</tr>
+<tr>
+	<td class="name"><a href="function-siw_get_language_skill_levels.html">siw_get_language_skill_levels</a></td>
+	<td>Geeft een array met niveau's van taalvaardigheid terug</td>
+</tr>
+<tr>
+	<td class="name"><a href="function-siw_get_languages.html">siw_get_languages</a></td>
+	<td>Geeft array met gegevens van talen terug</td>
+</tr>
+<tr>
+	<td class="name"><a href="function-siw_get_nationalities.html">siw_get_nationalities</a></td>
+	<td>Geeft een array met nationaliteiten terug</td>
+</tr>
+<tr>
+	<td class="name"><a href="function-siw_get_social_networks.html">siw_get_social_networks</a></td>
+	<td>Geeft een array van sociale netwerken terug</td>
 </tr>
 <tr>
 	<td class="name"><a href="function-siw_get_work_type.html">siw_get_work_type</a></td>
@@ -215,10 +267,6 @@
 <tr>
 	<td class="name"><a href="function-siw_get_work_types.html">siw_get_work_types</a></td>
 	<td>Geeft een array met soort werk voor projecten terug</td>
-</tr>
-<tr>
-	<td class="name"><a href="function-siw_retrieve_exchange_rates.html">siw_retrieve_exchange_rates</a></td>
-	<td>Ophalen wisselkoersen bij fixer.io</td>
 </tr>
 	</table>
 </div>
@@ -230,6 +278,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?5ad138f45cbfc38e1fd61daeee9d75fecfcfb8ec"></script>
+<script src="elementlist.js?59235ee4b4315a973aeb87f0a55a2af7cbbc8167"></script>
 </body>
 </html>
