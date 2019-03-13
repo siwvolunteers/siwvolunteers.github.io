@@ -110,6 +110,10 @@
 							Modules						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Options.html">
+							Options						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
 							</li>
@@ -138,6 +142,7 @@
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
 				<li><a href="class-SIW_i18n.html">SIW_i18n</a></li>
+				<li><a href="class-SIW_Icons.html">SIW_Icons</a></li>
 				<li><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
@@ -192,6 +197,10 @@
 				<b>Used by:</b>
 				<code><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></code><br>
 				<b>Used by:</b>
+				<code><a href="class-SIW_Update_Taxonomies.html">SIW_Update_Taxonomies</a></code><br>
+				<b>Used by:</b>
+				<code><a href="class-SIW_WC_Import_Product.html">SIW_WC_Import_Product</a></code><br>
+				<b>Used by:</b>
 				<code><a href="class-SIW_WC_Product_Archive.html">SIW_WC_Product_Archive</a></code><br>
 				<b>Used by:</b>
 				<code><a href="class-SIW_Widget_Accordion.html">SIW_Widget_Accordion</a></code><br>
@@ -202,6 +211,8 @@
 				<b>Used by:</b>
 				<code><a href="class-SIW_Widget_CTA.html">SIW_Widget_CTA</a></code><br>
 				<b>Used by:</b>
+				<code><a href="class-SIW_Widget_Dutch_Projects.html">SIW_Widget_Dutch_Projects</a></code><br>
+				<b>Used by:</b>
 				<code><a href="class-SIW_Widget_Newsletter.html">SIW_Widget_Newsletter</a></code><br>
 				<b>Used by:</b>
 				<code><a href="class-SIW_Widget_Quick_Search_Form.html">SIW_Widget_Quick_Search_Form</a></code><br>
@@ -209,7 +220,7 @@
 				<code><a href="class-SIW_Widget_Quick_Search_Results.html">SIW_Widget_Quick_Search_Results</a></code><br>
 				<b>Used by:</b>
 				<code><a href="function-siw_generate_country_description.html">siw_generate_country_description()</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_Formatting.html#7-443" title="Go to source code">class-siw-formatting.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Formatting.html#7-569" title="Go to source code">class-siw-formatting.php</a>
 		<br>
 	</div>
 
@@ -318,7 +329,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_list">#</a>
-			<code><a href="source-class-SIW_Formatting.html#44-64" title="Go to source code">generate_list</a>( <span>array <var>$items</var></span>, <span>boolean <var>$ordered</var> = <span class="php-keyword1">false</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#44-66" title="Go to source code">generate_list</a>( <span>array <var>$items</var></span>, <span>boolean <var>$ordered</var> = <span class="php-keyword1">false</span> </span> )</code>
 
 			<div class="description short">
 				<p>Genereert een <code>&lt;ol&gt;</code> of <code>&lt;ul&gt;</code> lijst van array</p>
@@ -333,6 +344,92 @@
 						<dt><var>$items</var></dt>
 						<dd></dd>
 						<dt><var>$ordered</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							escaping<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="generate_columns" id="_generate_columns">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_columns">#</a>
+			<code><a href="source-class-SIW_Formatting.html#68-83" title="Go to source code">generate_columns</a>( <span>array <var>$cells</var></span> )</code>
+
+			<div class="description short">
+				<p>Genereert kolommen</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereert kolommen</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cells</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="generate_icon" id="_generate_icon">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_icon">#</a>
+			<code><a href="source-class-SIW_Formatting.html#86-135" title="Go to source code">generate_icon</a>( <span>string <var>$icon_class</var></span>, <span>integer <var>$size</var> = <span class="php-num">2</span></span>, <span>string <var>$background</var> = <span class="php-quote">'none'</span> </span> )</code>
+
+			<div class="description short">
+				<p>Genereert html voor icon</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereert html voor icon</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$icon_class</var></dt>
+						<dd></dd>
+						<dt><var>$size</var></dt>
+						<dd></dd>
+						<dt><var>$background</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -359,7 +456,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_render_attributes">#</a>
-			<code><a href="source-class-SIW_Formatting.html#66-86" title="Go to source code">render_attributes</a>( <span>array <var>$attributes</var></span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#137-157" title="Go to source code">render_attributes</a>( <span>array <var>$attributes</var></span> )</code>
 
 			<div class="description short">
 				<p>Genereert attributes op basis van array</p>
@@ -398,7 +495,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_field">#</a>
-			<code><a href="source-class-SIW_Formatting.html#88-201" title="Go to source code">generate_field</a>( <span>string <var>$type</var></span>, <span>array <var>$input_args</var></span>, <span>array <var>$wrapper_args</var> = [] </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#159-272" title="Go to source code">generate_field</a>( <span>string <var>$type</var></span>, <span>array <var>$input_args</var></span>, <span>array <var>$wrapper_args</var> = [] </span> )</code>
 
 			<div class="description short">
 				<p>Genereert form field</p>
@@ -441,7 +538,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_link">#</a>
-			<code><a href="source-class-SIW_Formatting.html#203-227" title="Go to source code">generate_link</a>( <span>string <var>$url</var></span>, <span>string <var>$text</var> = <span class="php-keyword1">false</span></span>, <span>array <var>$attributes</var> = []</span>, <span> <var>$icon_class</var> = <span class="php-keyword1">false</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#274-298" title="Go to source code">generate_link</a>( <span>string <var>$url</var></span>, <span>string <var>$text</var> = <span class="php-keyword1">false</span></span>, <span>array <var>$attributes</var> = []</span>, <span> <var>$icon_class</var> = <span class="php-keyword1">false</span> </span> )</code>
 
 			<div class="description short">
 				<p>Genereert link</p>
@@ -479,6 +576,47 @@
 			</div></td>
 		</tr>
 
+		<tr data-order="generate_tag" id="_generate_tag">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_tag">#</a>
+			<code><a href="source-class-SIW_Formatting.html#300-314" title="Go to source code">generate_tag</a>( <span>string <var>$tag</var></span>, <span>array <var>$attributes</var></span> )</code>
+
+			<div class="description short">
+				<p>Genereert html-tag</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereert html-tag</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$tag</var></dt>
+						<dd></dd>
+						<dt><var>$attributes</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
 		<tr data-order="generate_external_link" id="_generate_external_link">
 
 			<td class="attributes"><code>
@@ -490,7 +628,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_external_link">#</a>
-			<code><a href="source-class-SIW_Formatting.html#229-238" title="Go to source code">generate_external_link</a>( <span>string <var>$url</var></span>, <span>string <var>$text</var> = <span class="php-keyword1">false</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#316-325" title="Go to source code">generate_external_link</a>( <span>string <var>$url</var></span>, <span>string <var>$text</var> = <span class="php-keyword1">false</span> </span> )</code>
 
 			<div class="description short">
 				<p>Genereert externe link</p>
@@ -531,7 +669,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_accordion">#</a>
-			<code><a href="source-class-SIW_Formatting.html#240-261" title="Go to source code">generate_accordion</a>( <span>array <var>$panes</var></span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#327-348" title="Go to source code">generate_accordion</a>( <span>array <var>$panes</var></span> )</code>
 
 			<div class="description short">
 				<p>Genereer pinnacle accordion</p>
@@ -559,6 +697,49 @@
 			</div></td>
 		</tr>
 
+		<tr data-order="generate_tabs" id="_generate_tabs">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_tabs">#</a>
+			<code><a href="source-class-SIW_Formatting.html#350-376" title="Go to source code">generate_tabs</a>( <span>array <var>$panes</var></span> )</code>
+
+			<div class="description short">
+				<p>Genereer pinnacle tabs</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereer pinnacle tabs</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$panes</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							samenvoegen met generate_accordion?<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
 		<tr data-order="parse_template" id="_parse_template">
 
 			<td class="attributes"><code>
@@ -570,7 +751,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_parse_template">#</a>
-			<code><a href="source-class-SIW_Formatting.html#263-276" title="Go to source code">parse_template</a>( <span>string <var>$template</var></span>, <span>array <var>$vars</var></span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#378-391" title="Go to source code">parse_template</a>( <span>string <var>$template</var></span>, <span>array <var>$vars</var></span> )</code>
 
 			<div class="description short">
 				<p>Parset template o.b.v. variabelen</p>
@@ -611,7 +792,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_json_ld">#</a>
-			<code><a href="source-class-SIW_Formatting.html#278-293" title="Go to source code">generate_json_ld</a>( <span>array <var>$data</var></span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#393-408" title="Go to source code">generate_json_ld</a>( <span>array <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Genereert script-tag met JSON-LD op basis van array</p>
@@ -650,7 +831,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_sanitize_html_classes">#</a>
-			<code><a href="source-class-SIW_Formatting.html#295-314" title="Go to source code">sanitize_html_classes</a>( <span>mixed <var>$class</var></span>, <span>string <var>$fallback</var> = <span class="php-keyword1">null</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#410-429" title="Go to source code">sanitize_html_classes</a>( <span>mixed <var>$class</var></span>, <span>string <var>$fallback</var> = <span class="php-keyword1">null</span> </span> )</code>
 
 			<div class="description short">
 				<p>sanitize_html_class voor meerdere classes</p>
@@ -695,7 +876,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_date">#</a>
-			<code><a href="source-class-SIW_Formatting.html#316-326" title="Go to source code">format_date</a>( <span>string <var>$date</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#431-441" title="Go to source code">format_date</a>( <span>string <var>$date</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
 
 			<div class="description short">
 				<p>Formatteert datum als tekst</p>
@@ -736,7 +917,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_date_range">#</a>
-			<code><a href="source-class-SIW_Formatting.html#328-363" title="Go to source code">format_date_range</a>( <span>string <var>$date_start</var></span>, <span>string <var>$date_end</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#443-478" title="Go to source code">format_date_range</a>( <span>string <var>$date_start</var></span>, <span>string <var>$date_end</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
 
 			<div class="description short">
 				<p>Formatteert datumrange als tekst</p>
@@ -779,7 +960,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_month">#</a>
-			<code><a href="source-class-SIW_Formatting.html#366-377" title="Go to source code">format_month</a>( <span>string <var>$date</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#481-492" title="Go to source code">format_month</a>( <span>string <var>$date</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
 
 			<div class="description short">
 				<p>Formatteert maand uit datum als tekst</p>
@@ -809,6 +990,47 @@
 			</div></td>
 		</tr>
 
+		<tr data-order="array_to_text" id="_array_to_text">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_array_to_text">#</a>
+			<code><a href="source-class-SIW_Formatting.html#494-503" title="Go to source code">array_to_text</a>( <span>array <var>$array</var></span>, <span> <var>$glue</var> = SPACE </span> )</code>
+
+			<div class="description short">
+				<p>Zet array van zinnen om naar tekst</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Zet array van zinnen om naar tekst</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$array</var></dt>
+						<dd></dd>
+						<dt><var>$glue</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
 		<tr data-order="format_month_range" id="_format_month_range">
 
 			<td class="attributes"><code>
@@ -820,7 +1042,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_month_range">#</a>
-			<code><a href="source-class-SIW_Formatting.html#379-411" title="Go to source code">format_month_range</a>( <span>string <var>$date_start</var></span>, <span>string <var>$date_end</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#505-537" title="Go to source code">format_month_range</a>( <span>string <var>$date_start</var></span>, <span>string <var>$date_end</var></span>, <span>boolean <var>$year</var> = <span class="php-keyword1">true</span> </span> )</code>
 
 			<div class="description short">
 				<p>Formatteert maand-range uit datums als tekst</p>
@@ -863,7 +1085,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_modal">#</a>
-			<code><a href="source-class-SIW_Formatting.html#413-442" title="Go to source code">generate_modal</a>( <span>integer <var>$page_id</var></span> )</code>
+			<code><a href="source-class-SIW_Formatting.html#539-568" title="Go to source code">generate_modal</a>( <span>integer <var>$page_id</var></span> )</code>
 
 			<div class="description short">
 				<p>Genereert html voor bootstap-modal o.b.v. pagina-id</p>

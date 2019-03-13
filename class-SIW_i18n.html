@@ -110,6 +110,10 @@
 							Modules						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Options.html">
+							Options						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
 							</li>
@@ -138,6 +142,7 @@
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
 				<li class="active"><a href="class-SIW_i18n.html">SIW_i18n</a></li>
+				<li><a href="class-SIW_Icons.html">SIW_Icons</a></li>
 				<li><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
@@ -180,7 +185,7 @@
 		<b>Package:</b> <a href="package-SIW.html">SIW</a><br>
 
 				<b>Copyright:</b>
-				2018 SIW Internationale Vrijwilligersprojecten<br>
+				2018-2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
 				<b>Used by:</b>
@@ -192,8 +197,10 @@
 				<b>Used by:</b>
 				<code><a href="class-SIW_Widget_CTA.html">SIW_Widget_CTA</a></code><br>
 				<b>Used by:</b>
+				<code><a href="class-SIW_Widget_Dutch_Projects.html">SIW_Widget_Dutch_Projects</a></code><br>
+				<b>Used by:</b>
 				<code><a href="function-siw_generate_country_description.html">siw_generate_country_description()</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_i18n.html#7-90" title="Go to source code">class-siw-i18n.php</a>
+			<b>Located at</b> <a href="source-class-SIW_i18n.html#7-116" title="Go to source code">class-siw-i18n.php</a>
 		<br>
 	</div>
 
@@ -244,7 +251,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_load_custom_translations">#</a>
-			<code><a href="source-class-SIW_i18n.html#26-48" title="Go to source code">load_custom_translations</a>( <span>string <var>$mofile</var></span>, <span>string <var>$domain</var></span> )</code>
+			<code><a href="source-class-SIW_i18n.html#26-47" title="Go to source code">load_custom_translations</a>( <span>string <var>$mofile</var></span>, <span>string <var>$domain</var></span> )</code>
 
 			<div class="description short">
 				<p>Laad custom vertalingen voor</p>
@@ -291,7 +298,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_translated_page_url">#</a>
-			<code><a href="source-class-SIW_i18n.html#50-59" title="Go to source code">get_translated_page_url</a>( <span>integer <var>$page_id</var></span> )</code>
+			<code><a href="source-class-SIW_i18n.html#49-58" title="Go to source code">get_translated_page_url</a>( <span>integer <var>$page_id</var></span> )</code>
 
 			<div class="description short">
 				<p>Zoekt url van vertaalde pagina op basis van id</p>
@@ -330,7 +337,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_translated_page_id">#</a>
-			<code><a href="source-class-SIW_i18n.html#61-69" title="Go to source code">get_translated_page_id</a>( <span>integer <var>$page_id</var></span> )</code>
+			<code><a href="source-class-SIW_i18n.html#60-68" title="Go to source code">get_translated_page_id</a>( <span>integer <var>$page_id</var></span> )</code>
 
 			<div class="description short">
 				<p>Zoekt id van vertaalde pagina op basis van id</p>
@@ -369,7 +376,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_is_default_language">#</a>
-			<code><a href="source-class-SIW_i18n.html#71-78" title="Go to source code">is_default_language</a>( )</code>
+			<code><a href="source-class-SIW_i18n.html#70-77" title="Go to source code">is_default_language</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft terug of de huidige taal gelijk is aan de standaardtaal</p>
@@ -392,6 +399,108 @@
 			</div></td>
 		</tr>
 
+		<tr data-order="get_current_language" id="_get_current_language">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_current_language">#</a>
+			<code><a href="source-class-SIW_i18n.html#79-86" title="Go to source code">get_current_language</a>( )</code>
+
+			<div class="description short">
+				<p>Geeft code van huidige taal terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft code van huidige taal terug</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_default_language" id="_get_default_language">
+
+			<td class="attributes"><code>
+				 public static
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_default_language">#</a>
+			<code><a href="source-class-SIW_i18n.html#88-95" title="Go to source code">get_default_language</a>( )</code>
+
+			<div class="description short">
+				<p>Geeft code van standaardtaal terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft code van standaardtaal terug</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_active_languages" id="_get_active_languages">
+
+			<td class="attributes"><code>
+				 public static
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_active_languages">#</a>
+			<code><a href="source-class-SIW_i18n.html#97-104" title="Go to source code">get_active_languages</a>( )</code>
+
+			<div class="description short">
+				<p>Geeft gegevens van actieve talen terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft gegevens van actieve talen terug</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
 		<tr data-order="add_language_switcher_templates_dir" id="_add_language_switcher_templates_dir">
 
 			<td class="attributes"><code>
@@ -403,7 +512,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_language_switcher_templates_dir">#</a>
-			<code><a href="source-class-SIW_i18n.html#80-89" title="Go to source code">add_language_switcher_templates_dir</a>( <span>array <var>$dirs</var></span> )</code>
+			<code><a href="source-class-SIW_i18n.html#106-115" title="Go to source code">add_language_switcher_templates_dir</a>( <span>array <var>$dirs</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt templates voor taalwisselaar toe</p>

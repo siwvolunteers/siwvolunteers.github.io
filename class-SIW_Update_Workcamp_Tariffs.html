@@ -110,6 +110,10 @@
 							Modules						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Options.html">
+							Options						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
 							</li>
@@ -142,6 +146,7 @@
 				<li><a href="class-SIW_Update_Free_Places.html">SIW_Update_Free_Places</a></li>
 				<li><a href="class-SIW_Update_Taxonomies.html">SIW_Update_Taxonomies</a></li>
 				<li class="active"><a href="class-SIW_Update_Workcamp_Tariffs.html">SIW_Update_Workcamp_Tariffs</a></li>
+				<li><a href="class-SIW_Update_Workcamps.html">SIW_Update_Workcamps</a></li>
 			</ul>
 
 
@@ -204,12 +209,12 @@ WP_Background_Process
 		<b>Package:</b> <a href="package-SIW.html">SIW</a>\<a href="package-SIW.Background.Process.html">Background-Process</a><br>
 
 				<b>Copyright:</b>
-				2017-2018 SIW Internationale Vrijwilligersprojecten<br>
+				2017-2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
 				<b>Uses:</b>
-				<code><a href="function-siw_update_workcamp_tariff.html">siw_update_workcamp_tariff()</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_Update_Workcamp_Tariffs.html#7-57" title="Go to source code">background-process/class-siw-update-workcamp-tariffs.php</a>
+				<code><a href="class-SIW_Util.html">SIW_Util</a></code><br>
+			<b>Located at</b> <a href="source-class-SIW_Update_Workcamp_Tariffs.html#7-95" title="Go to source code">background-process/class-siw-update-workcamp-tariffs.php</a>
 		<br>
 	</div>
 
@@ -230,14 +235,14 @@ WP_Background_Process
 
 			<td class="name"><div>
 			<a class="anchor" href="#_select_data">#</a>
-			<code><a href="source-class-SIW_Update_Workcamp_Tariffs.html#27-41" title="Go to source code">select_data</a>( )</code>
+			<code><a href="source-class-SIW_Update_Workcamp_Tariffs.html#27-40" title="Go to source code">select_data</a>( )</code>
 
 			<div class="description short">
-				<p>Selecteer alle zichtbare projecten //TODO: misschien gewoon alle projecten selecteren?</p>
+				<p>Selecteer alle zichtbare projecten</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Selecteer alle zichtbare projecten //TODO: misschien gewoon alle projecten selecteren?</p>
+				<p>Selecteer alle zichtbare projecten</p>
 
 
 
@@ -264,7 +269,7 @@ WP_Background_Process
 
 			<td class="name"><div>
 			<a class="anchor" href="#_task">#</a>
-			<code><a href="source-class-SIW_Update_Workcamp_Tariffs.html#43-56" title="Go to source code">task</a>( <span>mixed <var>$item</var></span> )</code>
+			<code><a href="source-class-SIW_Update_Workcamp_Tariffs.html#42-94" title="Go to source code">task</a>( <span>integer <var>$product_id</var></span> )</code>
 
 			<div class="description short">
 				<p>Werk tarieven van het groepsproject bij</p>
@@ -276,7 +281,7 @@ WP_Background_Process
 
 					<h4>Parameters</h4>
 					<div class="list"><dl>
-						<dt><var>$item</var></dt>
+						<dt><var>$product_id</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -362,11 +367,11 @@ WP_Background_Process
 					<a href="source-class-SIW_Update_Workcamp_Tariffs.html#22-25" title="Go to source code"><var>$name</var></a>
 
 				<div class="description short">
-					
+					<p>Naam van proces (voor logging)</p>
 				</div>
 
 				<div class="description detailed hidden">
-					
+					<p>Naam van proces (voor logging)</p>
 
 				</div>
 			</td>

@@ -110,6 +110,10 @@
 							Modules						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Options.html">
+							Options						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
 							</li>
@@ -138,6 +142,7 @@
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
 				<li><a href="class-SIW_i18n.html">SIW_i18n</a></li>
+				<li><a href="class-SIW_Icons.html">SIW_Icons</a></li>
 				<li><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li class="active"><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
@@ -180,12 +185,12 @@
 		<b>Package:</b> <a href="package-SIW.html">SIW</a><br>
 
 				<b>Copyright:</b>
-				2018 SIW Internationale Vrijwilligersprojecten<br>
+				2018-2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
 				<b>Todo:</b>
-				schedulen plato imports naar aparte class<br>
-			<b>Located at</b> <a href="source-class-SIW_Scheduler.html#7-173" title="Go to source code">class-siw-scheduler.php</a>
+				Import van Nederlandse projecten<br>
+			<b>Located at</b> <a href="source-class-SIW_Scheduler.html#6-131" title="Go to source code">class-siw-scheduler.php</a>
 		<br>
 	</div>
 
@@ -206,7 +211,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#51-57" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#36-42" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -236,44 +241,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_schedule_events">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#59-68" title="Go to source code">schedule_events</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#44-52" title="Go to source code">schedule_events</a>( )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Plant jobs en andere processen in</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
-
-
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
-		<tr data-order="set_timestamps" id="_set_timestamps">
-
-			<td class="attributes"><code>
-				 protected 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_set_timestamps">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#70-77" title="Go to source code">set_timestamps</a>( )</code>
-
-			<div class="description short">
-				<p>Undocumented function</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Plant jobs en andere processen in</p>
 
 
 
@@ -296,14 +271,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_schedule_jobs">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#79-90" title="Go to source code">schedule_jobs</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#54-63" title="Go to source code">schedule_jobs</a>( )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Plant jobs in</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Plant jobs in</p>
 
 
 
@@ -326,14 +301,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_schedule_update_free_places">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#92-101" title="Go to source code">schedule_update_free_places</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#65-75" title="Go to source code">schedule_update_free_places</a>( )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Plant updaten van vrije plaatsen in</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Plant updaten van vrije plaatsen in</p>
 
 
 
@@ -356,14 +331,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_schedule_update_projects">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#103-112" title="Go to source code">schedule_update_projects</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#77-89" title="Go to source code">schedule_update_projects</a>( )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Plant update van groepsprojecten in</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Plant update van groepsprojecten in</p>
 
 
 
@@ -386,56 +361,22 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_job">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#114-124" title="Go to source code">add_job</a>( <span>string <var>$action</var></span> )</code>
+			<code><a href="source-class-SIW_Scheduler.html#91-98" title="Go to source code">add_job</a>( <span>string <var>$hook</var></span> )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Voegt taak toe</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Voegt taak toe</p>
 
 
 					<h4>Parameters</h4>
 					<div class="list"><dl>
-						<dt><var>$action</var></dt>
+						<dt><var>$hook</var></dt>
 						<dd></dd>
 					</dl></div>
 
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
-		<tr data-order="get_jobs" id="_get_jobs">
-
-			<td class="attributes"><code>
-				 protected 
-				array
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_get_jobs">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#126-140" title="Go to source code">get_jobs</a>( )</code>
-
-			<div class="description short">
-				<p>Undocumented function</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Undocumented function</p>
-
-
-
-					<h4>Returns</h4>
-					<div class="list">
-						array
-					</div>
 
 
 
@@ -455,14 +396,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_unschedule_jobs">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#142-153" title="Go to source code">unschedule_jobs</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#100-111" title="Go to source code">unschedule_jobs</a>( )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Verwijdert ingeplande taken</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Verwijdert ingeplande taken</p>
 
 
 
@@ -485,14 +426,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_scheduled_jobs">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#155-163" title="Go to source code">get_scheduled_jobs</a>( )</code>
+			<code><a href="source-class-SIW_Scheduler.html#113-121" title="Go to source code">get_scheduled_jobs</a>( )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Haalt ingeplande taken op uit database</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Haalt ingeplande taken op uit database</p>
 
 
 
@@ -519,14 +460,14 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_scheduled_jobs">#</a>
-			<code><a href="source-class-SIW_Scheduler.html#165-172" title="Go to source code">set_scheduled_jobs</a>( <span>array <var>$jobs</var> = [] </span> )</code>
+			<code><a href="source-class-SIW_Scheduler.html#123-130" title="Go to source code">set_scheduled_jobs</a>( <span>array <var>$jobs</var> = [] </span> )</code>
 
 			<div class="description short">
-				<p>Undocumented function</p>
+				<p>Slaat ingeplande taken op in database</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Undocumented function</p>
+				<p>Slaat ingeplande taken op in database</p>
 
 
 					<h4>Parameters</h4>
@@ -561,7 +502,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Scheduler.html#46-49" title="Go to source code"><b>CRON_JOB_INTERVAL</b></a>
+						<a href="source-class-SIW_Scheduler.html#31-34" title="Go to source code"><b>CRON_JOB_INTERVAL</b></a>
 					</code>
 
 					<div class="description short">
@@ -590,6 +531,32 @@
             <div class="panel-heading"><h2>Properties summary</h2></div>
 			<table class="summary table table-bordered table-striped properties" id="properties">
 			
+		<tr data-order="jobs" id="$jobs">
+			<td class="attributes"><code>
+				protected static 
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SIW_Scheduler.html#17-22" title="Go to source code"><var>$jobs</var></a>
+
+				<div class="description short">
+					<p>Jobs</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Jobs</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$jobs" class="anchor">#</a>
+					<code>[]</code>
+				</div>
+			</td>
+		</tr>
+
 		<tr data-order="option_name" id="$option_name">
 			<td class="attributes"><code>
 				protected  
@@ -597,7 +564,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Scheduler.html#18-23" title="Go to source code"><var>$option_name</var></a>
+					<a href="source-class-SIW_Scheduler.html#24-29" title="Go to source code"><var>$option_name</var></a>
 
 				<div class="description short">
 					<p>Optienaam</p>
@@ -612,84 +579,6 @@
 				<div>
 					<a href="#$option_name" class="anchor">#</a>
 					<code><span class="php-quote">'siw_scheduled_cron_jobs'</span></code>
-				</div>
-			</td>
-		</tr>
-
-		<tr data-order="ts_scheduled_jobs" id="$ts_scheduled_jobs">
-			<td class="attributes"><code>
-				protected  
-				integer
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-SIW_Scheduler.html#25-30" title="Go to source code"><var>$ts_scheduled_jobs</var></a>
-
-				<div class="description short">
-					<p>Undocumented variable</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>Undocumented variable</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$ts_scheduled_jobs" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
-
-		<tr data-order="ts_update_projects" id="$ts_update_projects">
-			<td class="attributes"><code>
-				protected  
-				integer
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-SIW_Scheduler.html#32-37" title="Go to source code"><var>$ts_update_projects</var></a>
-
-				<div class="description short">
-					<p>Undocumented variable</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>Undocumented variable</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$ts_update_projects" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
-
-		<tr data-order="ts_update_free_places" id="$ts_update_free_places">
-			<td class="attributes"><code>
-				protected  
-				integer
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-SIW_Scheduler.html#39-44" title="Go to source code"><var>$ts_update_free_places</var></a>
-
-				<div class="description short">
-					<p>Undocumented variable</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>Undocumented variable</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$ts_update_free_places" class="anchor">#</a>
-					<code></code>
 				</div>
 			</td>
 		</tr>
