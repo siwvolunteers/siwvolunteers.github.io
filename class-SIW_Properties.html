@@ -90,6 +90,14 @@
 							Compatibility						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Content.html">
+							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Elements.html">
+							Elements						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Email.html">
 							Email						</a>
 							</li>
@@ -138,14 +146,17 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-SIW_Assets.html">SIW_Assets</a></li>
+				<li><a href="class-SIW_CSS.html">SIW_CSS</a></li>
 				<li><a href="class-SIW_Formatting.html">SIW_Formatting</a></li>
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
 				<li><a href="class-SIW_i18n.html">SIW_i18n</a></li>
 				<li><a href="class-SIW_Icons.html">SIW_Icons</a></li>
+				<li><a href="class-SIW_Post_Type.html">SIW_Post_Type</a></li>
 				<li class="active"><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
+				<li><a href="class-SIW_Taxonomy.html">SIW_Taxonomy</a></li>
 				<li><a href="class-SIW_Util.html">SIW_Util</a></li>
 				<li><a href="class-SIW_Widgets.html">SIW_Widgets</a></li>
 			</ul>
@@ -211,7 +222,7 @@
 				<b>Used by:</b>
 				<code><a href="class-SIW_Map.html">SIW_Map</a></code><br>
 				<b>Used by:</b>
-				<code><a href="class-SIW_Module_Cache_Refresh.html">SIW_Module_Cache_Refresh</a></code><br>
+				<code><a href="class-SIW_Module_Cache_Rebuild.html">SIW_Module_Cache_Rebuild</a></code><br>
 				<b>Used by:</b>
 				<code><a href="class-SIW_Module_Topbar.html">SIW_Module_Topbar</a></code><br>
 				<b>Used by:</b>
@@ -222,7 +233,7 @@
 				<code><a href="class-SIW_Widget_Contact.html">SIW_Widget_Contact</a></code><br>
 				<b>Used by:</b>
 				<code><a href="class-SIW_Widget_Organisation.html">SIW_Widget_Organisation</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_Properties.html#9-448" title="Go to source code">class-siw-properties.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Properties.html#9-426" title="Go to source code">class-siw-properties.php</a>
 		<br>
 	</div>
 
@@ -243,7 +254,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get">#</a>
-			<code><a href="source-class-SIW_Properties.html#413-425" title="Go to source code">get</a>( <span>string <var>$property</var></span> )</code>
+			<code><a href="source-class-SIW_Properties.html#391-403" title="Go to source code">get</a>( <span>string <var>$property</var></span> )</code>
 
 			<div class="description short">
 				<p>Geeft waarde van property terug</p>
@@ -282,7 +293,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_all">#</a>
-			<code><a href="source-class-SIW_Properties.html#427-447" title="Go to source code">get_all</a>( )</code>
+			<code><a href="source-class-SIW_Properties.html#405-425" title="Go to source code">get_all</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft array met properties terug</p>
@@ -792,58 +803,27 @@
 					</div>
 				</td>
 			</tr>
-			<tr data-order="NUMBER_OF_INFO_DAYS" id="NUMBER_OF_INFO_DAYS">
+			<tr data-order="ESC_WEEKS_BEFORE_DEADLINE" id="ESC_WEEKS_BEFORE_DEADLINE">
 				
 
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#153-160" title="Go to source code"><b>NUMBER_OF_INFO_DAYS</b></a>
+						<a href="source-class-SIW_Properties.html#153-158" title="Go to source code"><b>ESC_WEEKS_BEFORE_DEADLINE</b></a>
 					</code>
 
 					<div class="description short">
-						<p>Aantal infodagen</p>
+						<p>Minimaal aantal weken voor deadline</p>
 					</div>
 
 					<div class="description detailed hidden">
-						<p>Aantal infodagen</p>
+						<p>Minimaal aantal weken voor deadline</p>
 
-							<h4>Deprecated</h4>
-							<div class="list">
-							</div>
 					</div>
 				</td>
 				<td class="value">
 					<div>
-						<a href="#NUMBER_OF_INFO_DAYS" class="anchor">#</a>
-						<code><span class="php-num">10</span></code>
-					</div>
-				</td>
-			</tr>
-			<tr data-order="NUMBER_OF_ESC_DEADLINES" id="NUMBER_OF_ESC_DEADLINES">
-				
-
-				<td class="attributes"><code>integer</code></td>
-				<td class="name">
-					<code>
-						<a href="source-class-SIW_Properties.html#162-169" title="Go to source code"><b>NUMBER_OF_ESC_DEADLINES</b></a>
-					</code>
-
-					<div class="description short">
-						<p>Maximum aantal ESC-deadlines</p>
-					</div>
-
-					<div class="description detailed hidden">
-						<p>Maximum aantal ESC-deadlines</p>
-
-							<h4>Deprecated</h4>
-							<div class="list">
-							</div>
-					</div>
-				</td>
-				<td class="value">
-					<div>
-						<a href="#NUMBER_OF_ESC_DEADLINES" class="anchor">#</a>
+						<a href="#ESC_WEEKS_BEFORE_DEADLINE" class="anchor">#</a>
 						<code><span class="php-num">5</span></code>
 					</div>
 				</td>
@@ -854,15 +834,15 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#171-176" title="Go to source code"><b>ESC_WEEKS_BEFORE_DEPARTURE</b></a>
+						<a href="source-class-SIW_Properties.html#160-165" title="Go to source code"><b>ESC_WEEKS_BEFORE_DEPARTURE</b></a>
 					</code>
 
 					<div class="description short">
-						<p>Minimaal aantal weken voor deadline</p>
+						<p>Minimaal aantal weken voor vertrek</p>
 					</div>
 
 					<div class="description detailed hidden">
-						<p>Minimaal aantal weken voor deadline</p>
+						<p>Minimaal aantal weken voor vertrek</p>
 
 					</div>
 				</td>
@@ -873,41 +853,13 @@
 					</div>
 				</td>
 			</tr>
-			<tr data-order="IP_WHITELIST_SIZE" id="IP_WHITELIST_SIZE">
-				
-
-				<td class="attributes"><code>integer</code></td>
-				<td class="name">
-					<code>
-						<a href="source-class-SIW_Properties.html#178-185" title="Go to source code"><b>IP_WHITELIST_SIZE</b></a>
-					</code>
-
-					<div class="description short">
-						<p>Grootte IP whitelist</p>
-					</div>
-
-					<div class="description detailed hidden">
-						<p>Grootte IP whitelist</p>
-
-							<h4>Deprecated</h4>
-							<div class="list">
-							</div>
-					</div>
-				</td>
-				<td class="value">
-					<div>
-						<a href="#IP_WHITELIST_SIZE" class="anchor">#</a>
-						<code><span class="php-num">5</span></code>
-					</div>
-				</td>
-			</tr>
 			<tr data-order="MAX_BOARD_MEMBERS" id="MAX_BOARD_MEMBERS">
 				
 
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#187-192" title="Go to source code"><b>MAX_BOARD_MEMBERS</b></a>
+						<a href="source-class-SIW_Properties.html#167-172" title="Go to source code"><b>MAX_BOARD_MEMBERS</b></a>
 					</code>
 
 					<div class="description short">
@@ -932,7 +884,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#194-201" title="Go to source code"><b>MAX_ANNUAL_REPORTS</b></a>
+						<a href="source-class-SIW_Properties.html#174-179" title="Go to source code"><b>MAX_ANNUAL_REPORTS</b></a>
 					</code>
 
 					<div class="description short">
@@ -942,9 +894,6 @@
 					<div class="description detailed hidden">
 						<p>Maximum aantal jaarverslagen</p>
 
-							<h4>Deprecated</h4>
-							<div class="list">
-							</div>
 					</div>
 				</td>
 				<td class="value">
@@ -960,7 +909,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#203-208" title="Go to source code"><b>TS_UPDATE_PROJECTS</b></a>
+						<a href="source-class-SIW_Properties.html#181-186" title="Go to source code"><b>TS_UPDATE_PROJECTS</b></a>
 					</code>
 
 					<div class="description short">
@@ -985,7 +934,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#210-215" title="Go to source code"><b>TS_UPDATE_FREE_PLACES</b></a>
+						<a href="source-class-SIW_Properties.html#188-193" title="Go to source code"><b>TS_UPDATE_FREE_PLACES</b></a>
 					</code>
 
 					<div class="description short">
@@ -1000,7 +949,7 @@
 				<td class="value">
 					<div>
 						<a href="#TS_UPDATE_FREE_PLACES" class="anchor">#</a>
-						<code><span class="php-quote">'0:30'</span></code>
+						<code><span class="php-quote">'2:00'</span></code>
 					</div>
 				</td>
 			</tr>
@@ -1010,7 +959,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#217-222" title="Go to source code"><b>TS_SCHEDULED_JOBS</b></a>
+						<a href="source-class-SIW_Properties.html#195-200" title="Go to source code"><b>TS_SCHEDULED_JOBS</b></a>
 					</code>
 
 					<div class="description short">
@@ -1035,7 +984,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#224-229" title="Go to source code"><b>TS_BACKUP_DB</b></a>
+						<a href="source-class-SIW_Properties.html#202-207" title="Go to source code"><b>TS_BACKUP_DB</b></a>
 					</code>
 
 					<div class="description short">
@@ -1060,7 +1009,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#231-236" title="Go to source code"><b>TS_BACKUP_FILES</b></a>
+						<a href="source-class-SIW_Properties.html#209-214" title="Go to source code"><b>TS_BACKUP_FILES</b></a>
 					</code>
 
 					<div class="description short">
@@ -1079,27 +1028,27 @@
 					</div>
 				</td>
 			</tr>
-			<tr data-order="TS_CACHE_REFRESH" id="TS_CACHE_REFRESH">
+			<tr data-order="TS_CACHE_REBUILD" id="TS_CACHE_REBUILD">
 				
 
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#238-243" title="Go to source code"><b>TS_CACHE_REFRESH</b></a>
+						<a href="source-class-SIW_Properties.html#216-221" title="Go to source code"><b>TS_CACHE_REBUILD</b></a>
 					</code>
 
 					<div class="description short">
-						<p>Tijdstip cache verversen</p>
+						<p>Tijdstip cache opnieuw opbouwen</p>
 					</div>
 
 					<div class="description detailed hidden">
-						<p>Tijdstip cache verversen</p>
+						<p>Tijdstip cache opnieuw opbouwen</p>
 
 					</div>
 				</td>
 				<td class="value">
 					<div>
-						<a href="#TS_CACHE_REFRESH" class="anchor">#</a>
+						<a href="#TS_CACHE_REBUILD" class="anchor">#</a>
 						<code><span class="php-quote">'05:00'</span></code>
 					</div>
 				</td>
@@ -1110,7 +1059,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#245-250" title="Go to source code"><b>WORKCAMP_FEE_STUDENT</b></a>
+						<a href="source-class-SIW_Properties.html#223-228" title="Go to source code"><b>WORKCAMP_FEE_STUDENT</b></a>
 					</code>
 
 					<div class="description short">
@@ -1135,7 +1084,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#252-257" title="Go to source code"><b>WORKCAMP_FEE_REGULAR</b></a>
+						<a href="source-class-SIW_Properties.html#230-235" title="Go to source code"><b>WORKCAMP_FEE_REGULAR</b></a>
 					</code>
 
 					<div class="description short">
@@ -1160,7 +1109,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#259-264" title="Go to source code"><b>WORKCAMP_FEE_STUDENT_SALE</b></a>
+						<a href="source-class-SIW_Properties.html#237-242" title="Go to source code"><b>WORKCAMP_FEE_STUDENT_SALE</b></a>
 					</code>
 
 					<div class="description short">
@@ -1185,7 +1134,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#266-271" title="Go to source code"><b>WORKCAMP_FEE_REGULAR_SALE</b></a>
+						<a href="source-class-SIW_Properties.html#244-249" title="Go to source code"><b>WORKCAMP_FEE_REGULAR_SALE</b></a>
 					</code>
 
 					<div class="description short">
@@ -1210,7 +1159,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#273-278" title="Go to source code"><b>TAILOR_MADE_FEE_STUDENT</b></a>
+						<a href="source-class-SIW_Properties.html#251-256" title="Go to source code"><b>TAILOR_MADE_FEE_STUDENT</b></a>
 					</code>
 
 					<div class="description short">
@@ -1235,7 +1184,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#280-285" title="Go to source code"><b>TAILOR_MADE_FEE_REGULAR</b></a>
+						<a href="source-class-SIW_Properties.html#258-263" title="Go to source code"><b>TAILOR_MADE_FEE_REGULAR</b></a>
 					</code>
 
 					<div class="description short">
@@ -1260,7 +1209,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#287-292" title="Go to source code"><b>ESC_DEPOSIT</b></a>
+						<a href="source-class-SIW_Properties.html#265-270" title="Go to source code"><b>ESC_DEPOSIT</b></a>
 					</code>
 
 					<div class="description short">
@@ -1285,7 +1234,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#294-299" title="Go to source code"><b>DISCOUNT_SECOND_PROJECT</b></a>
+						<a href="source-class-SIW_Properties.html#272-277" title="Go to source code"><b>DISCOUNT_SECOND_PROJECT</b></a>
 					</code>
 
 					<div class="description short">
@@ -1310,7 +1259,7 @@
 				<td class="attributes"><code>integer</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#301-306" title="Go to source code"><b>DISCOUNT_THIRD_PROJECT</b></a>
+						<a href="source-class-SIW_Properties.html#279-284" title="Go to source code"><b>DISCOUNT_THIRD_PROJECT</b></a>
 					</code>
 
 					<div class="description short">
@@ -1335,7 +1284,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#308-313" title="Go to source code"><b>PRIMARY_COLOR</b></a>
+						<a href="source-class-SIW_Properties.html#286-291" title="Go to source code"><b>PRIMARY_COLOR</b></a>
 					</code>
 
 					<div class="description short">
@@ -1360,7 +1309,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#315-320" title="Go to source code"><b>PRIMARY_COLOR_HOVER</b></a>
+						<a href="source-class-SIW_Properties.html#293-298" title="Go to source code"><b>PRIMARY_COLOR_HOVER</b></a>
 					</code>
 
 					<div class="description short">
@@ -1385,7 +1334,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#322-327" title="Go to source code"><b>SECONDARY_COLOR</b></a>
+						<a href="source-class-SIW_Properties.html#300-305" title="Go to source code"><b>SECONDARY_COLOR</b></a>
 					</code>
 
 					<div class="description short">
@@ -1410,7 +1359,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#329-334" title="Go to source code"><b>SECONDARY_COLOR_HOVER</b></a>
+						<a href="source-class-SIW_Properties.html#307-312" title="Go to source code"><b>SECONDARY_COLOR_HOVER</b></a>
 					</code>
 
 					<div class="description short">
@@ -1435,7 +1384,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#336-341" title="Go to source code"><b>FONT_COLOR</b></a>
+						<a href="source-class-SIW_Properties.html#314-319" title="Go to source code"><b>FONT_COLOR</b></a>
 					</code>
 
 					<div class="description short">
@@ -1460,7 +1409,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#343-348" title="Go to source code"><b>COLOR_EUROPE</b></a>
+						<a href="source-class-SIW_Properties.html#321-326" title="Go to source code"><b>COLOR_EUROPE</b></a>
 					</code>
 
 					<div class="description short">
@@ -1485,7 +1434,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#350-355" title="Go to source code"><b>COLOR_ASIA</b></a>
+						<a href="source-class-SIW_Properties.html#328-333" title="Go to source code"><b>COLOR_ASIA</b></a>
 					</code>
 
 					<div class="description short">
@@ -1510,7 +1459,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#357-362" title="Go to source code"><b>COLOR_AFRICA</b></a>
+						<a href="source-class-SIW_Properties.html#335-340" title="Go to source code"><b>COLOR_AFRICA</b></a>
 					</code>
 
 					<div class="description short">
@@ -1535,7 +1484,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#364-369" title="Go to source code"><b>COLOR_LATIN_AMERICA</b></a>
+						<a href="source-class-SIW_Properties.html#342-347" title="Go to source code"><b>COLOR_LATIN_AMERICA</b></a>
 					</code>
 
 					<div class="description short">
@@ -1560,7 +1509,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#371-376" title="Go to source code"><b>COLOR_NORTH_AMERICA</b></a>
+						<a href="source-class-SIW_Properties.html#349-354" title="Go to source code"><b>COLOR_NORTH_AMERICA</b></a>
 					</code>
 
 					<div class="description short">
@@ -1585,7 +1534,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#378-383" title="Go to source code"><b>POSTCODE_API_URL</b></a>
+						<a href="source-class-SIW_Properties.html#356-361" title="Go to source code"><b>POSTCODE_API_URL</b></a>
 					</code>
 
 					<div class="description short">
@@ -1610,7 +1559,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#385-390" title="Go to source code"><b>PLATO_WEBSERVICE_URL</b></a>
+						<a href="source-class-SIW_Properties.html#363-368" title="Go to source code"><b>PLATO_WEBSERVICE_URL</b></a>
 					</code>
 
 					<div class="description short">
@@ -1635,7 +1584,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#392-397" title="Go to source code"><b>TRAVEL_ADVICE_BASE_URL</b></a>
+						<a href="source-class-SIW_Properties.html#370-375" title="Go to source code"><b>TRAVEL_ADVICE_BASE_URL</b></a>
 					</code>
 
 					<div class="description short">
@@ -1660,7 +1609,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#399-404" title="Go to source code"><b>EXCHANGE_RATES_API_URL</b></a>
+						<a href="source-class-SIW_Properties.html#377-382" title="Go to source code"><b>EXCHANGE_RATES_API_URL</b></a>
 					</code>
 
 					<div class="description short">
@@ -1685,7 +1634,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_Properties.html#406-411" title="Go to source code"><b>REPORT_URI</b></a>
+						<a href="source-class-SIW_Properties.html#384-389" title="Go to source code"><b>REPORT_URI</b></a>
 					</code>
 
 					<div class="description short">
@@ -1717,7 +1666,7 @@
 		SIW API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
+<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
 </body>
 </html>

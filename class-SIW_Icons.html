@@ -90,6 +90,14 @@
 							Compatibility						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Content.html">
+							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Elements.html">
+							Elements						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Email.html">
 							Email						</a>
 							</li>
@@ -138,14 +146,17 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-SIW_Assets.html">SIW_Assets</a></li>
+				<li><a href="class-SIW_CSS.html">SIW_CSS</a></li>
 				<li><a href="class-SIW_Formatting.html">SIW_Formatting</a></li>
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
 				<li><a href="class-SIW_i18n.html">SIW_i18n</a></li>
 				<li class="active"><a href="class-SIW_Icons.html">SIW_Icons</a></li>
+				<li><a href="class-SIW_Post_Type.html">SIW_Post_Type</a></li>
 				<li><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
+				<li><a href="class-SIW_Taxonomy.html">SIW_Taxonomy</a></li>
 				<li><a href="class-SIW_Util.html">SIW_Util</a></li>
 				<li><a href="class-SIW_Widgets.html">SIW_Widgets</a></li>
 			</ul>
@@ -188,7 +199,7 @@
 				2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Icons.html#7-94" title="Go to source code">class-siw-icons.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Icons.html#7-117" title="Go to source code">class-siw-icons.php</a>
 		<br>
 	</div>
 
@@ -209,7 +220,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Icons.html#16-28" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Icons.html#16-29" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -239,7 +250,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_enqueue_style">#</a>
-			<code><a href="source-class-SIW_Icons.html#30-36" title="Go to source code">enqueue_style</a>( )</code>
+			<code><a href="source-class-SIW_Icons.html#31-37" title="Go to source code">enqueue_style</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt stylesheet toe</p>
@@ -269,7 +280,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_icon_family">#</a>
-			<code><a href="source-class-SIW_Icons.html#38-51" title="Go to source code">add_icon_family</a>( <span>array <var>$icon_families</var></span> )</code>
+			<code><a href="source-class-SIW_Icons.html#39-52" title="Go to source code">add_icon_family</a>( <span>array <var>$icon_families</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt SIW-icon family toe</p>
@@ -308,7 +319,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_icon_families">#</a>
-			<code><a href="source-class-SIW_Icons.html#53-68" title="Go to source code">remove_icon_families</a>( <span>array <var>$icon_families</var></span> )</code>
+			<code><a href="source-class-SIW_Icons.html#54-69" title="Go to source code">remove_icon_families</a>( <span>array <var>$icon_families</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert default icon families</p>
@@ -336,18 +347,59 @@
 			</div></td>
 		</tr>
 
-		<tr data-order="get_icons_from_json" id="_get_icons_from_json">
+		<tr data-order="get_icons" id="_get_icons">
 
 			<td class="attributes"><code>
-				 protected 
+				 public static
 				array
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_get_icons_from_json">#</a>
-			<code><a href="source-class-SIW_Icons.html#70-93" title="Go to source code">get_icons_from_json</a>( )</code>
+			<a class="anchor" href="#_get_icons">#</a>
+			<code><a href="source-class-SIW_Icons.html#71-96" title="Go to source code">get_icons</a>( <span>string <var>$label</var> = <span class="php-quote">'html'</span></span>, <span>boolean <var>$prefix</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				<p>Geeft lijst van icons terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft lijst van icons terug</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$label</var></dt>
+						<dd>html|unicode</dd>
+						<dt><var>$prefix</var></dt>
+						<dd>Moet prefix siw- toegevoegd worden?</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="read_json_file" id="_read_json_file">
+
+			<td class="attributes"><code>
+				 protected static
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_read_json_file">#</a>
+			<code><a href="source-class-SIW_Icons.html#98-116" title="Go to source code">read_json_file</a>( )</code>
 
 			<div class="description short">
 				<p>Haalt gegevens van icons op uit json file</p>
@@ -393,7 +445,7 @@
 		SIW API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
+<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
 </body>
 </html>

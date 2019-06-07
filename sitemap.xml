@@ -22,6 +22,12 @@
 	<loc>https://siwvolunteers.github.io/package-SIW.Compatibility.html</loc>
 </url>
 <url>
+	<loc>https://siwvolunteers.github.io/package-SIW.Content.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/package-SIW.Elements.html</loc>
+</url>
+<url>
 	<loc>https://siwvolunteers.github.io/package-SIW.Email.html</loc>
 </url>
 <url>
@@ -126,6 +132,12 @@
 	<loc>https://siwvolunteers.github.io/class-SIW_Compat_YITH_WCAN.html</loc>
 </url>
 <url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Content_Type.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Content_Type_TM_Country.html</loc>
+</url>
+<url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Continent.html</loc>
 </url>
 <url>
@@ -133,6 +145,9 @@
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Country.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_CSS.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Currency.html</loc>
@@ -145,6 +160,15 @@
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Delete_Workcamps.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Element_Carousel.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Element_Taxonomy_Filter.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Element_World_Map.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Email_Configuration.html</loc>
@@ -183,7 +207,7 @@
 	<loc>https://siwvolunteers.github.io/class-SIW_Map.html</loc>
 </url>
 <url>
-	<loc>https://siwvolunteers.github.io/class-SIW_Module_Cache_Refresh.html</loc>
+	<loc>https://siwvolunteers.github.io/class-SIW_Module_Cache_Rebuild.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Module_Cookie_Notification.html</loc>
@@ -210,6 +234,9 @@
 	<loc>https://siwvolunteers.github.io/class-SIW_Plato_Import.html</loc>
 </url>
 <url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Plato_Import_Dutch_Workcamps.html</loc>
+</url>
+<url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Plato_Import_FPL.html</loc>
 </url>
 <url>
@@ -217,6 +244,9 @@
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Plato_Interface.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Post_Type.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Properties.html</loc>
@@ -229,6 +259,12 @@
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Social_Network.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Taxonomy.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Update_Dutch_Workcamps.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Update_Free_Places.html</loc>
@@ -294,6 +330,9 @@
 	<loc>https://siwvolunteers.github.io/class-SIW_Widget_Calendar.html</loc>
 </url>
 <url>
+	<loc>https://siwvolunteers.github.io/class-SIW_Widget_Carousel.html</loc>
+</url>
+<url>
 	<loc>https://siwvolunteers.github.io/class-SIW_Widget_Contact.html</loc>
 </url>
 <url>
@@ -342,13 +381,10 @@
 	<loc>https://siwvolunteers.github.io/function-siw_generate_job_json_ld.html</loc>
 </url>
 <url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_active_evs_projects.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_annual_reports.html</loc>
-</url>
-<url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_application_fields_for_xml.html</loc>
+</url>
+<url>
+	<loc>https://siwvolunteers.github.io/function-siw_get_board_titles.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_continent.html</loc>
@@ -378,28 +414,13 @@
 	<loc>https://siwvolunteers.github.io/function-siw_get_event_data.html</loc>
 </url>
 <url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_evs_countries.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_evs_project_data.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_evs_project_work_types.html</loc>
-</url>
-<url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_featured_job.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_form_field.html</loc>
 </url>
 <url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_future_info_days.html</loc>
-</url>
-<url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_genders.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_ip_whitelist.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_job_data.html</loc>
@@ -420,28 +441,10 @@
 	<loc>https://siwvolunteers.github.io/function-siw_get_nationalities.html</loc>
 </url>
 <url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_next_evs_deadline.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_next_evs_departure_month.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_next_info_day.html</loc>
-</url>
-<url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_option.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_order_data.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_project_languages.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_project_work_types.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_setting.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_social_networks.html</loc>
@@ -462,18 +465,6 @@
 	<loc>https://siwvolunteers.github.io/function-siw_get_upcoming_events.html</loc>
 </url>
 <url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_volunteer_genders.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_volunteer_language_skill_levels.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_volunteer_languages.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_get_volunteer_nationalities.html</loc>
-</url>
-<url>
 	<loc>https://siwvolunteers.github.io/function-siw_get_work_type.html</loc>
 </url>
 <url>
@@ -487,18 +478,6 @@
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_render_map.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_set_setting.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_settings_validate_ip.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_settings_validate_latitude.html</loc>
-</url>
-<url>
-	<loc>https://siwvolunteers.github.io/function-siw_settings_validate_longitude.html</loc>
 </url>
 <url>
 	<loc>https://siwvolunteers.github.io/function-siw_start_background_process.html</loc>

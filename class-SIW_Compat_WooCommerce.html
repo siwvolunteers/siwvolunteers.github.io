@@ -90,6 +90,14 @@
 							Compatibility						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Content.html">
+							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Elements.html">
+							Elements						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Email.html">
 							Email						</a>
 							</li>
@@ -190,7 +198,7 @@
 				2018 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Compat_WooCommerce.html#8-165" title="Go to source code">compatibility/class-siw-compat-woocommerce.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Compat_WooCommerce.html#8-206" title="Go to source code">compatibility/class-siw-compat-woocommerce.php</a>
 		<br>
 	</div>
 
@@ -211,7 +219,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#17-51" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#17-57" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -241,7 +249,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_unregister_widgets">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#53-62" title="Go to source code">unregister_widgets</a>( )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#59-68" title="Go to source code">unregister_widgets</a>( )</code>
 
 			<div class="description short">
 				<p>Verwijdert ongebruikte widgets</p>
@@ -271,7 +279,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_log_handler">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#64-71" title="Go to source code">set_log_handler</a>( )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#70-77" title="Go to source code">set_log_handler</a>( )</code>
 
 			<div class="description short">
 				<p>Zet database als de standaard log handler</p>
@@ -301,7 +309,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_register_log_handlers">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#73-93" title="Go to source code">register_log_handlers</a>( <span>array <var>$handlers</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#79-99" title="Go to source code">register_log_handlers</a>( <span>array <var>$handlers</var></span> )</code>
 
 			<div class="description short">
 				<p>Registreert log handlers</p>
@@ -345,7 +353,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_log_items_per_page">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#95-104" title="Go to source code">set_log_items_per_page</a>( <span>integer <var>$per_page</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#101-110" title="Go to source code">set_log_items_per_page</a>( <span>integer <var>$per_page</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet het aantal log items per pagina</p>
@@ -373,6 +381,45 @@
 			</div></td>
 		</tr>
 
+		<tr data-order="set_days_to_retain_log" id="_set_days_to_retain_log">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_days_to_retain_log">#</a>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#112-121" title="Go to source code">set_days_to_retain_log</a>( <span>integer <var>$days</var></span> )</code>
+
+			<div class="description short">
+				<p>Zet aantal dagen dat log bewaard wordt</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Zet aantal dagen dat log bewaard wordt</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$days</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						integer
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
 		<tr data-order="reset_nonce_user_logged_out" id="_reset_nonce_user_logged_out">
 
 			<td class="attributes"><code>
@@ -384,7 +431,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_reset_nonce_user_logged_out">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#106-125" title="Go to source code">reset_nonce_user_logged_out</a>( <span>string <var>$user_id</var></span>, <span>string <var>$action</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#123-142" title="Go to source code">reset_nonce_user_logged_out</a>( <span>string <var>$user_id</var></span>, <span>string <var>$action</var></span> )</code>
 
 			<div class="description short">
 				<p>Maakt het aanpassen van nonce voor logged-out user door WooCommerce ongedaan</p>
@@ -425,7 +472,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_dashboard_widgets">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#127-133" title="Go to source code">remove_dashboard_widgets</a>( )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#144-150" title="Go to source code">remove_dashboard_widgets</a>( )</code>
 
 			<div class="description short">
 				<p>Verwijdert dashboard widgets</p>
@@ -455,7 +502,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_disable_product_types">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#135-146" title="Go to source code">disable_product_types</a>( <span>array <var>$product_types</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#152-163" title="Go to source code">disable_product_types</a>( <span>array <var>$product_types</var></span> )</code>
 
 			<div class="description short">
 				<p>Schakelt ongebruikte product types uit</p>
@@ -494,7 +541,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_enable_project_id_search">#</a>
-			<code><a href="source-class-SIW_Compat_WooCommerce.html#148-163" title="Go to source code">enable_project_id_search</a>( <span>array <var>$query</var></span>, <span>array <var>$query_vars</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#165-180" title="Go to source code">enable_project_id_search</a>( <span>array <var>$query</var></span>, <span>array <var>$query_vars</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt project_id als argument toe aan WC queries</p>
@@ -523,6 +570,80 @@
 			</div>
 			</div></td>
 		</tr>
+
+		<tr data-order="remove_product_visibility_options" id="_remove_product_visibility_options">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_remove_product_visibility_options">#</a>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#182-192" title="Go to source code">remove_product_visibility_options</a>( <span>array <var>$visibility_options</var></span> )</code>
+
+			<div class="description short">
+				<p>Verwijdert overbodige zichtbaarheidsopties</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Verwijdert overbodige zichtbaarheidsopties</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$visibility_options</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="remove_products_admin_list_table_filters" id="_remove_products_admin_list_table_filters">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_remove_products_admin_list_table_filters">#</a>
+			<code><a href="source-class-SIW_Compat_WooCommerce.html#194-205" title="Go to source code">remove_products_admin_list_table_filters</a>( <span>array <var>$filters</var></span> )</code>
+
+			<div class="description short">
+				<p>Verwijdert filters op admin-lijst met producten</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Verwijdert filters op admin-lijst met producten</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$filters</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
 			</table>
 		</div>
 
@@ -543,7 +664,7 @@
 		SIW API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
+<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
 </body>
 </html>

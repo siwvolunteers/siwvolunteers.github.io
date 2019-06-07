@@ -90,6 +90,14 @@
 							Compatibility						</a>
 							</li>
 					<li>
+						<a href="package-SIW.Content.html">
+							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Elements.html">
+							Elements						</a>
+							</li>
+					<li>
 						<a href="package-SIW.Email.html">
 							Email						</a>
 							</li>
@@ -140,6 +148,7 @@
 				<li><a href="class-SIW_Plato_Export.html">SIW_Plato_Export</a></li>
 				<li><a href="class-SIW_Plato_Export_Application.html">SIW_Plato_Export_Application</a></li>
 				<li><a href="class-SIW_Plato_Import.html">SIW_Plato_Import</a></li>
+				<li><a href="class-SIW_Plato_Import_Dutch_Workcamps.html">SIW_Plato_Import_Dutch_Workcamps</a></li>
 				<li><a href="class-SIW_Plato_Import_FPL.html">SIW_Plato_Import_FPL</a></li>
 				<li><a href="class-SIW_Plato_Import_Workcamps.html">SIW_Plato_Import_Workcamps</a></li>
 				<li class="active"><a href="class-SIW_Plato_Interface.html">SIW_Plato_Interface</a></li>
@@ -179,6 +188,7 @@
 		<h3>Indirect known subclasses</h3>
 		<p class="elementList">
 			<code><a href="class-SIW_Plato_Export_Application.html">SIW_Plato_Export_Application</a></code>, 
+			<code><a href="class-SIW_Plato_Import_Dutch_Workcamps.html">SIW_Plato_Import_Dutch_Workcamps</a></code>, 
 			<code><a href="class-SIW_Plato_Import_FPL.html">SIW_Plato_Import_FPL</a></code>, 
 			<code><a href="class-SIW_Plato_Import_Workcamps.html">SIW_Plato_Import_Workcamps</a></code>
 		</p>
@@ -198,7 +208,7 @@
 				2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Plato_Interface.html#7-155" title="Go to source code">plato-interface/abstract-siw-plato-interface.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Plato_Interface.html#7-149" title="Go to source code">plato-interface/abstract-siw-plato-interface.php</a>
 		<br>
 	</div>
 
@@ -249,7 +259,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_webkey">#</a>
-			<code><a href="source-class-SIW_Plato_Interface.html#73-80" title="Go to source code">set_webkey</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Interface.html#73-78" title="Go to source code">set_webkey</a>( )</code>
 
 			<div class="description short">
 				<p>Zet Plato-webkey</p>
@@ -272,14 +282,14 @@
 
 			<td class="attributes"><code>
 				 protected 
-				
+				string
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_webkey">#</a>
-			<code><a href="source-class-SIW_Plato_Interface.html#82-89" title="Go to source code">get_webkey</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Interface.html#80-87" title="Go to source code">get_webkey</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft Plato-webkey terug</p>
@@ -290,6 +300,10 @@
 
 
 
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
 
 
 
@@ -309,7 +323,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_endpoint_url">#</a>
-			<code><a href="source-class-SIW_Plato_Interface.html#91-99" title="Go to source code">set_endpoint_url</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Interface.html#89-94" title="Go to source code">set_endpoint_url</a>( )</code>
 
 			<div class="description short">
 				<p>Zet URL van het endpoint</p>
@@ -320,10 +334,6 @@
 
 
 
-					<h4>Returns</h4>
-					<div class="list">
-						<br>$this
-					</div>
 
 
 
@@ -343,7 +353,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_query_arg">#</a>
-			<code><a href="source-class-SIW_Plato_Interface.html#101-109" title="Go to source code">add_query_arg</a>( <span>string <var>$key</var></span>, <span>string <var>$value</var></span> )</code>
+			<code><a href="source-class-SIW_Plato_Interface.html#96-104" title="Go to source code">add_query_arg</a>( <span>string <var>$key</var></span>, <span>string <var>$value</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt query argument toe aan endpoint URL</p>
@@ -380,7 +390,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_log">#</a>
-			<code><a href="source-class-SIW_Plato_Interface.html#121-131" title="Go to source code">log</a>( <span>string <var>$level</var></span>, <span>string <var>$message</var></span> )</code>
+			<code><a href="source-class-SIW_Plato_Interface.html#115-125" title="Go to source code">log</a>( <span>string <var>$level</var></span>, <span>string <var>$message</var></span> )</code>
 
 			<div class="description short">
 				<p>Schrijft boodschap naar log</p>
@@ -421,7 +431,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_check_http_response">#</a>
-			<code><a href="source-class-SIW_Plato_Interface.html#133-153" title="Go to source code">check_http_response</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Interface.html#127-147" title="Go to source code">check_http_response</a>( )</code>
 
 			<div class="description short">
 				<p>Controleert de response van Plato</p>
@@ -682,7 +692,7 @@
 		SIW API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
 </div>
-<script src="resources/combined.js"></script>
-<script src="elementlist.js"></script>
+<script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
+<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
 </body>
 </html>
