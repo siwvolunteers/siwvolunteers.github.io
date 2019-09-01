@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -150,14 +154,20 @@
 				<li><a href="class-SIW_WC_Admin_Product.html">SIW_WC_Admin_Product</a></li>
 				<li><a href="class-SIW_WC_Admin_Product_Columns.html">SIW_WC_Admin_Product_Columns</a></li>
 				<li class="active"><a href="class-SIW_WC_Checkout.html">SIW_WC_Checkout</a></li>
+				<li><a href="class-SIW_WC_Checkout_Discount.html">SIW_WC_Checkout_Discount</a></li>
 				<li><a href="class-SIW_WC_Checkout_Newsletter.html">SIW_WC_Checkout_Newsletter</a></li>
+				<li><a href="class-SIW_WC_Checkout_Validation.html">SIW_WC_Checkout_Validation</a></li>
+				<li><a href="class-SIW_WC_Coupon.html">SIW_WC_Coupon</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_On_Hold_Order.html">SIW_WC_Email_Customer_On_Hold_Order</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_Processing_Order.html">SIW_WC_Email_Customer_Processing_Order</a></li>
 				<li><a href="class-SIW_WC_Email_New_Order.html">SIW_WC_Email_New_Order</a></li>
 				<li><a href="class-SIW_WC_Emails.html">SIW_WC_Emails</a></li>
 				<li><a href="class-SIW_WC_Import_Product.html">SIW_WC_Import_Product</a></li>
+				<li><a href="class-SIW_WC_Import_Product_Image.html">SIW_WC_Import_Product_Image</a></li>
+				<li><a href="class-SIW_WC_Order_Export.html">SIW_WC_Order_Export</a></li>
 				<li><a href="class-SIW_WC_Product.html">SIW_WC_Product</a></li>
 				<li><a href="class-SIW_WC_Product_Archive.html">SIW_WC_Product_Archive</a></li>
+				<li><a href="class-SIW_WC_Product_Tabs.html">SIW_WC_Product_Tabs</a></li>
 			</ul>
 
 
@@ -202,7 +212,7 @@
 				<code><a href="class-SIW_Properties.html">SIW_Properties</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_Util.html">SIW_Util</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_WC_Checkout.html#7-367" title="Go to source code">woocommerce/class-siw-wc-checkout.php</a>
+			<b>Located at</b> <a href="source-class-SIW_WC_Checkout.html#3-269" title="Go to source code">woocommerce/checkout/class-siw-wc-checkout.php</a>
 		<br>
 	</div>
 
@@ -223,7 +233,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#19-49" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#15-42" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -253,7 +263,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_locale_field_selectors">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#51-61" title="Go to source code">remove_locale_field_selectors</a>( <span>array <var>$locale_fields</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#44-54" title="Go to source code">remove_locale_field_selectors</a>( <span>array <var>$locale_fields</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert JS-selectors voor update locale</p>
@@ -292,7 +302,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_locale_postcode_priority">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#63-72" title="Go to source code">remove_locale_postcode_priority</a>( <span>array <var>$locale</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#56-65" title="Go to source code">remove_locale_postcode_priority</a>( <span>array <var>$locale</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert aangepaste prioriteit voor postcode</p>
@@ -320,45 +330,6 @@
 			</div></td>
 		</tr>
 
-		<tr data-order="calculate_discounts" id="_calculate_discounts">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_calculate_discounts">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#74-104" title="Go to source code">calculate_discounts</a>( <span>WC_Cart <var>$cart</var></span> )</code>
-
-			<div class="description short">
-				<p>Past korting toe bij meerdere projecten</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Past korting toe bij meerdere projecten</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$cart</var></dt>
-						<dd></dd>
-					</dl></div>
-
-
-
-					<h4>Todo</h4>
-					<div class="list">
-							hoort dit wel bij de checkout?<br>
-					</div>
-
-
-			</div>
-			</div></td>
-		</tr>
-
 		<tr data-order="add_form_field_markup" id="_add_form_field_markup">
 
 			<td class="attributes"><code>
@@ -370,7 +341,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_form_field_markup">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#106-115" title="Go to source code">add_form_field_markup</a>( <span>string <var>$field</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#67-76" title="Go to source code">add_form_field_markup</a>( <span>string <var>$field</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt extra markup voor gestylde radiobuttons en checkboxes toe</p>
@@ -409,7 +380,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_form_field_classes">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#117-131" title="Go to source code">add_form_field_classes</a>( <span>array <var>$args</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#78-92" title="Go to source code">add_form_field_classes</a>( <span>array <var>$args</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt extra classes voor gestylde radiobuttons en checkboxes toe</p>
@@ -448,7 +419,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_checkout_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#133-147" title="Go to source code">get_checkout_fields</a>( <span>array <var>$checkout_fields</var> = [] </span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#94-108" title="Go to source code">get_checkout_fields</a>( <span>array <var>$checkout_fields</var> = [] </span> )</code>
 
 			<div class="description short">
 				<p>Haalt checkoutvelden op</p>
@@ -487,7 +458,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_checkout_sections">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#149-163" title="Go to source code">get_checkout_sections</a>( )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#110-124" title="Go to source code">get_checkout_sections</a>( )</code>
 
 			<div class="description short">
 				<p>Haalt secties voor checkoutvelden op</p>
@@ -521,7 +492,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_checkout_partner_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#165-189" title="Go to source code">show_checkout_partner_fields</a>( <span>WC_Checkout <var>$checkout</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#126-150" title="Go to source code">show_checkout_partner_fields</a>( <span>WC_Checkout <var>$checkout</var></span> )</code>
 
 			<div class="description short">
 				<p>Toont de extra checkoutvelden</p>
@@ -556,7 +527,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_save_checkout_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#191-211" title="Go to source code">save_checkout_fields</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$data</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#152-172" title="Go to source code">save_checkout_fields</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Slaat de extra checkoutvelden op</p>
@@ -593,7 +564,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_default_address_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#213-227" title="Go to source code">set_default_address_fields</a>( <span>array <var>$address_fields</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#174-188" title="Go to source code">set_default_address_fields</a>( <span>array <var>$address_fields</var></span> )</code>
 
 			<div class="description short">
 				<p>Past de volgorde van de adresvelden aan</p>
@@ -632,7 +603,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_billing_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#229-240" title="Go to source code">set_billing_fields</a>( <span>array <var>$billing_fields</var></span>, <span>array <var>$country</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#190-201" title="Go to source code">set_billing_fields</a>( <span>array <var>$billing_fields</var></span>, <span>string <var>$country</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet de classes voor de billing velden</p>
@@ -673,7 +644,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_checkout_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#242-251" title="Go to source code">add_checkout_fields</a>( <span>array <var>$checkout_fields</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#203-212" title="Go to source code">add_checkout_fields</a>( <span>array <var>$checkout_fields</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt de extra checkoutvelden toe</p>
@@ -712,7 +683,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_term_checkbox_text">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#253-263" title="Go to source code">set_term_checkbox_text</a>( <span>string <var>$text</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#214-224" title="Go to source code">set_term_checkbox_text</a>( <span>string <var>$text</var></span> )</code>
 
 			<div class="description short">
 				<p>Past link naar voorwaarden-modal aan</p>
@@ -751,7 +722,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_terms_modal">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#265-273" title="Go to source code">add_terms_modal</a>( <span>WC_Checkout <var>$checkout</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#226-233" title="Go to source code">add_terms_modal</a>( <span>WC_Checkout <var>$checkout</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt html voor voorwaarden-modal toe</p>
@@ -775,41 +746,6 @@
 			</div></td>
 		</tr>
 
-		<tr data-order="add_validation_script" id="_add_validation_script">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_add_validation_script">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#275-307" title="Go to source code">add_validation_script</a>( )</code>
-
-			<div class="description short">
-				<p>Voegt extra client-side validatie toe</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Voegt extra client-side validatie toe</p>
-
-<ul>
-<li>Postcode</li>
-<li>Datum</li>
-</ul>
-
-
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
 		<tr data-order="add_postcode_script" id="_add_postcode_script">
 
 			<td class="attributes"><code>
@@ -821,7 +757,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_postcode_script">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#309-322" title="Go to source code">add_postcode_script</a>( )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#235-248" title="Go to source code">add_postcode_script</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt inline script voor postcode lookup toe</p>
@@ -844,47 +780,6 @@
 			</div></td>
 		</tr>
 
-		<tr data-order="validate_checkout_fields" id="_validate_checkout_fields">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_validate_checkout_fields">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#324-346" title="Go to source code">validate_checkout_fields</a>( <span>array <var>$data</var></span>, <span>WP_Error <var>$errors</var></span> )</code>
-
-			<div class="description short">
-				<p>Voert validatie voor extra checkout velden uit</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Voert validatie voor extra checkout velden uit</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$data</var></dt>
-						<dd></dd>
-						<dt><var>$errors</var></dt>
-						<dd></dd>
-					</dl></div>
-
-
-
-					<h4>Todo</h4>
-					<div class="list">
-							minimum/maximum-leeftijd van project gebruiken<br>
-					</div>
-
-
-			</div>
-			</div></td>
-		</tr>
-
 		<tr data-order="set_checkout_templates" id="_set_checkout_templates">
 
 			<td class="attributes"><code>
@@ -896,7 +791,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_checkout_templates">#</a>
-			<code><a href="source-class-SIW_WC_Checkout.html#348-366" title="Go to source code">set_checkout_templates</a>( <span>string <var>$located</var></span>, <span>array <var>$template_name</var></span>, <span>string <var>$args</var></span>, <span>string <var>$template_path</var></span>, <span>string <var>$default_path</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Checkout.html#250-268" title="Go to source code">set_checkout_templates</a>( <span>string <var>$located</var></span>, <span>string <var>$template_name</var></span>, <span>array <var>$args</var></span>, <span>string <var>$template_path</var></span>, <span>string <var>$default_path</var></span> )</code>
 
 			<div class="description short">
 				<p>Overschrijft templates</p>
@@ -952,6 +847,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

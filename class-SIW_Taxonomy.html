@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -126,10 +134,6 @@
 							Plato						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
-							</li>
-					<li>
 						<a href="package-SIW.Widgets.html">
 							Widgets						</a>
 							</li>
@@ -146,17 +150,23 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-SIW_Assets.html">SIW_Assets</a></li>
+				<li><a href="class-SIW_Autoloader.html">SIW_Autoloader</a></li>
+				<li><a href="class-SIW_Bootstrap.html">SIW_Bootstrap</a></li>
 				<li><a href="class-SIW_CSS.html">SIW_CSS</a></li>
 				<li><a href="class-SIW_Formatting.html">SIW_Formatting</a></li>
+				<li><a href="class-SIW_Forms.html">SIW_Forms</a></li>
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
+				<li><a href="class-SIW_HTML.html">SIW_HTML</a></li>
 				<li><a href="class-SIW_i18n.html">SIW_i18n</a></li>
 				<li><a href="class-SIW_Icons.html">SIW_Icons</a></li>
+				<li><a href="class-SIW_Login.html">SIW_Login</a></li>
 				<li><a href="class-SIW_Post_Type.html">SIW_Post_Type</a></li>
 				<li><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
 				<li class="active"><a href="class-SIW_Taxonomy.html">SIW_Taxonomy</a></li>
+				<li><a href="class-SIW_Upload_Dir.html">SIW_Upload_Dir</a></li>
 				<li><a href="class-SIW_Util.html">SIW_Util</a></li>
 				<li><a href="class-SIW_Widgets.html">SIW_Widgets</a></li>
 			</ul>
@@ -199,7 +209,7 @@
 				2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Taxonomy.html#7-87" title="Go to source code">content-types/class-siw-taxonomy.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Taxonomy.html#4-84" title="Go to source code">content-types/class-siw-taxonomy.php</a>
 		<br>
 	</div>
 
@@ -220,7 +230,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SIW_Taxonomy.html#23-42" title="Go to source code">__construct</a>( <span>string <var>$taxonomy</var></span>, <span>string <var>$post_type</var></span>, <span>array <var>$labels</var></span>, <span>array <var>$args</var></span>, <span>string <var>$slug</var></span> )</code>
+			<code><a href="source-class-SIW_Taxonomy.html#20-39" title="Go to source code">__construct</a>( <span>string <var>$taxonomy</var></span>, <span>string <var>$post_type</var></span>, <span>array <var>$labels</var></span>, <span>array <var>$args</var></span>, <span>string <var>$slug</var></span> )</code>
 
 			<div class="description short">
 				<p>Constructor</p>
@@ -263,7 +273,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_register">#</a>
-			<code><a href="source-class-SIW_Taxonomy.html#44-71" title="Go to source code">register</a>( )</code>
+			<code><a href="source-class-SIW_Taxonomy.html#41-68" title="Go to source code">register</a>( )</code>
 
 			<div class="description short">
 				<p>Registreert taxonomie</p>
@@ -293,7 +303,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_register_template">#</a>
-			<code><a href="source-class-SIW_Taxonomy.html#73-86" title="Go to source code">register_template</a>( <span>string <var>$template</var></span>, <span>string <var>$type</var></span>, <span>array <var>$templates</var></span> )</code>
+			<code><a href="source-class-SIW_Taxonomy.html#70-83" title="Go to source code">register_template</a>( <span>string <var>$template</var></span>, <span>string <var>$type</var></span>, <span>array <var>$templates</var></span> )</code>
 
 			<div class="description short">
 				<p>Registreert template voor taxonomy-archiefpagina</p>
@@ -348,7 +358,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Taxonomy.html#16-21" title="Go to source code"><var>$taxonomy</var></a>
+					<a href="source-class-SIW_Taxonomy.html#13-18" title="Go to source code"><var>$taxonomy</var></a>
 
 				<div class="description short">
 					<p>Taxonomie</p>
@@ -382,6 +392,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

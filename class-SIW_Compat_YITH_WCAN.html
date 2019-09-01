@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -157,6 +161,7 @@
 				<li><a href="class-SIW_Compat_WooCommerce.html">SIW_Compat_WooCommerce</a></li>
 				<li><a href="class-SIW_Compat_WordPress.html">SIW_Compat_WordPress</a></li>
 				<li><a href="class-SIW_Compat_WP_Rocket.html">SIW_Compat_WP_Rocket</a></li>
+				<li><a href="class-SIW_Compat_WP_Sentry_Integration.html">SIW_Compat_WP_Sentry_Integration</a></li>
 				<li class="active"><a href="class-SIW_Compat_YITH_WCAN.html">SIW_Compat_YITH_WCAN</a></li>
 			</ul>
 
@@ -198,7 +203,7 @@
 				2018-2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Compat_YITH_WCAN.html#7-84" title="Go to source code">compatibility/class-siw-compat-yith-wcan.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Compat_YITH_WCAN.html#4-107" title="Go to source code">compatibility/class-siw-compat-yith-wcan.php</a>
 		<br>
 	</div>
 
@@ -219,7 +224,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#16-39" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#13-42" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -249,7 +254,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_premium_tab">#</a>
-			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#41-50" title="Go to source code">remove_premium_tab</a>( <span>array <var>$admin_tabs</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#44-53" title="Go to source code">remove_premium_tab</a>( <span>array <var>$admin_tabs</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert premium tabs</p>
@@ -288,7 +293,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_dashboard_widgets">#</a>
-			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#52-58" title="Go to source code">remove_dashboard_widgets</a>( )</code>
+			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#55-61" title="Go to source code">remove_dashboard_widgets</a>( )</code>
 
 			<div class="description short">
 				<p>Verwijdert dashboard widgets</p>
@@ -318,7 +323,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_order_terms">#</a>
-			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#60-83" title="Go to source code">order_terms</a>( <span>array <var>$terms</var></span>, <span>string <var>$taxonomy</var></span>, <span>YITH_WCAN_Navigation_Widget <var>$instance</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#63-86" title="Go to source code">order_terms</a>( <span>array <var>$terms</var></span>, <span>string <var>$taxonomy</var></span>, <span>array <var>$instance</var></span> )</code>
 
 			<div class="description short">
 				<p>Sorteert maand op slug ipv op alfabet</p>
@@ -349,6 +354,66 @@
 			</div>
 			</div></td>
 		</tr>
+
+		<tr data-order="add_scroll_script" id="_add_scroll_script">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_scroll_script">#</a>
+			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#88-97" title="Go to source code">add_scroll_script</a>( )</code>
+
+			<div class="description short">
+				<p>Voegt scroll script toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt scroll script toe</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="remove_promo_hooks" id="_remove_promo_hooks">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_remove_promo_hooks">#</a>
+			<code><a href="source-class-SIW_Compat_YITH_WCAN.html#99-105" title="Go to source code">remove_promo_hooks</a>( )</code>
+
+			<div class="description short">
+				<p>Verwijderen YITH-promo</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Verwijderen YITH-promo</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
 			</table>
 		</div>
 
@@ -370,6 +435,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

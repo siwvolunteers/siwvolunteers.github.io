@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -150,14 +154,20 @@
 				<li><a href="class-SIW_WC_Admin_Product.html">SIW_WC_Admin_Product</a></li>
 				<li><a href="class-SIW_WC_Admin_Product_Columns.html">SIW_WC_Admin_Product_Columns</a></li>
 				<li><a href="class-SIW_WC_Checkout.html">SIW_WC_Checkout</a></li>
+				<li><a href="class-SIW_WC_Checkout_Discount.html">SIW_WC_Checkout_Discount</a></li>
 				<li><a href="class-SIW_WC_Checkout_Newsletter.html">SIW_WC_Checkout_Newsletter</a></li>
+				<li><a href="class-SIW_WC_Checkout_Validation.html">SIW_WC_Checkout_Validation</a></li>
+				<li><a href="class-SIW_WC_Coupon.html">SIW_WC_Coupon</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_On_Hold_Order.html">SIW_WC_Email_Customer_On_Hold_Order</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_Processing_Order.html">SIW_WC_Email_Customer_Processing_Order</a></li>
 				<li><a href="class-SIW_WC_Email_New_Order.html">SIW_WC_Email_New_Order</a></li>
 				<li><a href="class-SIW_WC_Emails.html">SIW_WC_Emails</a></li>
 				<li class="active"><a href="class-SIW_WC_Import_Product.html">SIW_WC_Import_Product</a></li>
+				<li><a href="class-SIW_WC_Import_Product_Image.html">SIW_WC_Import_Product_Image</a></li>
+				<li><a href="class-SIW_WC_Order_Export.html">SIW_WC_Order_Export</a></li>
 				<li><a href="class-SIW_WC_Product.html">SIW_WC_Product</a></li>
 				<li><a href="class-SIW_WC_Product_Archive.html">SIW_WC_Product_Archive</a></li>
+				<li><a href="class-SIW_WC_Product_Tabs.html">SIW_WC_Product_Tabs</a></li>
 			</ul>
 
 
@@ -199,16 +209,16 @@
 				<b>Author:</b>
 				Maarten Bruna<br>
 				<b>Uses:</b>
-				<code><a href="class-SIW_Country.html">SIW_Country</a></code><br>
+				<code><a href="class-SIW_Data_Country.html">SIW_Data_Country</a></code><br>
 				<b>Uses:</b>
-				<code><a href="class-SIW_Language.html">SIW_Language</a></code><br>
+				<code><a href="class-SIW_Data_Language.html">SIW_Data_Language</a></code><br>
 				<b>Uses:</b>
-				<code><a href="class-SIW_Work_Type.html">SIW_Work_Type</a></code><br>
+				<code><a href="class-SIW_Data_Work_Type.html">SIW_Data_Work_Type</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_Formatting.html">SIW_Formatting</a></code><br>
 				<b>Used by:</b>
-				<code><a href="class-SIW_Update_Workcamps.html">SIW_Update_Workcamps</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_WC_Import_Product.html#6-868" title="Go to source code">woocommerce/import/class-siw-wc-import-product.php</a>
+				<code><a href="class-SIW_Batch_Job_Update_Workcamps.html">SIW_Batch_Job_Update_Workcamps</a></code><br>
+			<b>Located at</b> <a href="source-class-SIW_WC_Import_Product.html#3-865" title="Go to source code">woocommerce/import/class-siw-wc-import-product.php</a>
 		<br>
 	</div>
 
@@ -229,7 +239,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#80-90" title="Go to source code">__construct</a>( <span> <var>$data</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#77-87" title="Go to source code">__construct</a>( <span>array <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Constructor</p>
@@ -259,7 +269,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_correct_post_slug">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#92-104" title="Go to source code">correct_post_slug</a>( <span>array <var>$data</var></span>, <span>array <var>$postarr</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#89-101" title="Go to source code">correct_post_slug</a>( <span>array <var>$data</var></span>, <span>array <var>$postarr</var></span> )</code>
 
 			<div class="description short">
 				<p>Corrigeert slug van product als het ter review staat</p>
@@ -300,7 +310,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_process">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#106-150" title="Go to source code">process</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#103-147" title="Go to source code">process</a>( )</code>
 
 			<div class="description short">
 				<p>Verwerk item</p>
@@ -338,7 +348,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_product">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#152-178" title="Go to source code">set_product</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#149-175" title="Go to source code">set_product</a>( )</code>
 
 			<div class="description short">
 				<p>Zet de eigenschappen van het product</p>
@@ -368,7 +378,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_country">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#180-186" title="Go to source code">set_country</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#177-183" title="Go to source code">set_country</a>( )</code>
 
 			<div class="description short">
 				<p>Zet land op basis van ISO-code</p>
@@ -398,7 +408,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_languages">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#188-201" title="Go to source code">set_languages</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#185-198" title="Go to source code">set_languages</a>( )</code>
 
 			<div class="description short">
 				<p>Zet talen op basis van Plato-code</p>
@@ -428,7 +438,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_work_types">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#203-218" title="Go to source code">set_work_types</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#200-215" title="Go to source code">set_work_types</a>( )</code>
 
 			<div class="description short">
 				<p>Zet soorten werk op basis van Plato-code</p>
@@ -458,7 +468,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_category_ids">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#220-232" title="Go to source code">get_category_ids</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#217-229" title="Go to source code">get_category_ids</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft de category (continent) van het project terug</p>
@@ -492,7 +502,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_name">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#234-250" title="Go to source code">get_name</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#231-247" title="Go to source code">get_name</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft naam van het project terug</p>
@@ -526,7 +536,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_slug">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#252-264" title="Go to source code">get_slug</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#249-261" title="Go to source code">get_slug</a>( )</code>
 
 			<div class="description short">
 				<p>Zet de url-slug van het project</p>
@@ -555,14 +565,14 @@
 
 			<td class="attributes"><code>
 				 protected 
-				integer
+				integer|boolean
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
 			<a class="anchor" href="#_maybe_create_term">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#266-293" title="Go to source code">maybe_create_term</a>( <span>string <var>$taxonomy</var></span>, <span>string <var>$slug</var></span>, <span>string <var>$name</var></span>, <span> <var>$order</var> = <span class="php-keyword1">null</span> </span> )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#263-291" title="Go to source code">maybe_create_term</a>( <span>string <var>$taxonomy</var></span>, <span>string <var>$slug</var></span>, <span>string <var>$name</var></span>, <span>string <var>$order</var> = <span class="php-keyword1">null</span> </span> )</code>
 
 			<div class="description short">
 				<p>Creert term indien deze nog niet bestaat</p>
@@ -586,7 +596,7 @@
 
 					<h4>Returns</h4>
 					<div class="list">
-						integer
+						integer|boolean
 					</div>
 
 
@@ -607,7 +617,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_tag_ids">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#295-320" title="Go to source code">get_tag_ids</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#293-318" title="Go to source code">get_tag_ids</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft tag-ids van het project terug</p>
@@ -647,7 +657,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_attributes">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#322-414" title="Go to source code">get_attributes</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#320-412" title="Go to source code">get_attributes</a>( )</code>
 
 			<div class="description short">
 				<p>Zet de eigenschappen van het project</p>
@@ -681,7 +691,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_default_attributes">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#416-426" title="Go to source code">get_default_attributes</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#414-424" title="Go to source code">get_default_attributes</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft default eigenschappen terug</p>
@@ -715,7 +725,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_create_product_attribute">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#428-444" title="Go to source code">create_product_attribute</a>( <span>string <var>$name</var></span>, <span>array <var>$options</var></span>, <span>boolean <var>$visible</var> = <span class="php-keyword1">true</span> </span>, <span>boolean <var>$taxonomy</var>,…</span> )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#426-442" title="Go to source code">create_product_attribute</a>( <span>string <var>$name</var></span>, <span>array <var>$options</var></span>, <span>boolean <var>$visible</var> = <span class="php-keyword1">true</span> </span>, <span>boolean <var>$taxonomy</var>,…</span> )</code>
 
 			<div class="description short">
 				<p>Creëert product attribute</p>
@@ -760,7 +770,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_create_taxonomy_attribute">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#446-477" title="Go to source code">create_taxonomy_attribute</a>( <span>string <var>$taxonomy</var></span>, <span>array <var>$values</var></span>, <span>boolean <var>$visible</var> = <span class="php-keyword1">true</span></span>, <span>boolean <var>$variation</var> = <span class="php-keyword1">false</span> </span> )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#444-475" title="Go to source code">create_taxonomy_attribute</a>( <span>string <var>$taxonomy</var></span>, <span>array <var>$values</var></span>, <span>boolean <var>$visible</var> = <span class="php-keyword1">true</span></span>, <span>boolean <var>$variation</var> = <span class="php-keyword1">false</span> </span> )</code>
 
 			<div class="description short">
 				<p>Creëert taxonomy attribute</p>
@@ -809,7 +819,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_description">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#479-518" title="Go to source code">get_description</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#477-516" title="Go to source code">get_description</a>( )</code>
 
 			<div class="description short">
 				<p>Genereert de beschrijving</p>
@@ -843,7 +853,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_parse_description">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#520-537" title="Go to source code">parse_description</a>( <span>string <var>$template</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#518-535" title="Go to source code">parse_description</a>( <span>string <var>$template</var></span> )</code>
 
 			<div class="description short">
 				<p>Parset beschrijvingen</p>
@@ -882,7 +892,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_short_description">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#540-560" title="Go to source code">get_short_description</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#538-558" title="Go to source code">get_short_description</a>( )</code>
 
 			<div class="description short">
 				<p>Geneert de korte (Nederlandse) beschrijving van een project op basis van een template</p>
@@ -920,7 +930,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_meta_data">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#562-584" title="Go to source code">get_meta_data</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#560-582" title="Go to source code">get_meta_data</a>( )</code>
 
 			<div class="description short">
 				<p>Zet meta properties van product</p>
@@ -954,7 +964,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_variations">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#586-627" title="Go to source code">set_variations</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#584-626" title="Go to source code">set_variations</a>( )</code>
 
 			<div class="description short">
 				<p>Zet de benodige variaties (tarieven)</p>
@@ -984,7 +994,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_status">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#629-649" title="Go to source code">get_status</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#628-648" title="Go to source code">get_status</a>( )</code>
 
 			<div class="description short">
 				<p>Bepaalt de status van het project</p>
@@ -1022,7 +1032,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_seo_description">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#651-669" title="Go to source code">get_seo_description</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#650-668" title="Go to source code">get_seo_description</a>( )</code>
 
 			<div class="description short">
 				<p>Zet SEO beschrijving</p>
@@ -1056,7 +1066,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_seo_title">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#671-679" title="Go to source code">get_seo_title</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#670-678" title="Go to source code">get_seo_title</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft SEO titel terug</p>
@@ -1090,7 +1100,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_image_id">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#681-691" title="Go to source code">get_image_id</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#680-688" title="Go to source code">get_image_id</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft id van featured afbeelding terug</p>
@@ -1107,10 +1117,6 @@
 					</div>
 
 
-					<h4>Todo</h4>
-					<div class="list">
-							aparte class voor maken<br>
-					</div>
 
 
 			</div>
@@ -1128,7 +1134,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_should_be_updated">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#693-717" title="Go to source code">should_be_updated</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#690-714" title="Go to source code">should_be_updated</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft aan of project bijgewerkt moet worden</p>
@@ -1138,8 +1144,8 @@
 				<p>Geeft aan of project bijgewerkt moet worden</p>
 
 <ul>
-<li>Als Plato-data veranderd is</li>
 <li>Als dit bij het project is aangegeven</li>
+<li>Als Plato-data veranderd is</li>
 <li>Bij geforceerde volledige update</li>
 </ul>
 
@@ -1168,7 +1174,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_local_fee">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#719-742" title="Go to source code">format_local_fee</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#716-739" title="Go to source code">format_local_fee</a>( )</code>
 
 			<div class="description short">
 				<p>Formatteert lokale bijdrage</p>
@@ -1202,7 +1208,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_number_of_volunteers">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#744-764" title="Go to source code">format_number_of_volunteers</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#741-761" title="Go to source code">format_number_of_volunteers</a>( )</code>
 
 			<div class="description short">
 				<p>Formatteert aantal vrijwilligers</p>
@@ -1236,7 +1242,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_age_range">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#766-782" title="Go to source code">format_age_range</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#763-779" title="Go to source code">format_age_range</a>( )</code>
 
 			<div class="description short">
 				<p>Formatteert leeftijden</p>
@@ -1270,7 +1276,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_target_audiences">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#784-815" title="Go to source code">set_target_audiences</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#781-812" title="Go to source code">set_target_audiences</a>( )</code>
 
 			<div class="description short">
 				<p>Zet speciale doelgroepen voor projecten</p>
@@ -1304,7 +1310,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_workcamp_type">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#817-833" title="Go to source code">get_workcamp_type</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#814-830" title="Go to source code">get_workcamp_type</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft type groepsproject terug</p>
@@ -1338,7 +1344,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_tariffs">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#835-853" title="Go to source code">set_tariffs</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#832-850" title="Go to source code">set_tariffs</a>( )</code>
 
 			<div class="description short">
 				<p>Zet de tarief die van toepassing zijn voor dit project</p>
@@ -1372,7 +1378,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_is_allowed_project_type">#</a>
-			<code><a href="source-class-SIW_WC_Import_Product.html#855-867" title="Go to source code">is_allowed_project_type</a>( )</code>
+			<code><a href="source-class-SIW_WC_Import_Product.html#852-864" title="Go to source code">is_allowed_project_type</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft aan het het een toegestaan type project is</p>
@@ -1413,7 +1419,7 @@
 				<td class="attributes"><code>string</code></td>
 				<td class="name">
 					<code>
-						<a href="source-class-SIW_WC_Import_Product.html#19-22" title="Go to source code"><b>REVIEW_STATUS</b></a>
+						<a href="source-class-SIW_WC_Import_Product.html#16-19" title="Go to source code"><b>REVIEW_STATUS</b></a>
 					</code>
 
 					<div class="description short">
@@ -1449,7 +1455,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#24-29" title="Go to source code"><var>$xml</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#21-26" title="Go to source code"><var>$xml</var></a>
 
 				<div class="description short">
 					<p>Ruwe xml-data uit Plato</p>
@@ -1475,7 +1481,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#31-36" title="Go to source code"><var>$update</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#28-33" title="Go to source code"><var>$update</var></a>
 
 				<div class="description short">
 					<p>Geeft aan of het een update van een bestaand product is</p>
@@ -1501,7 +1507,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#38-43" title="Go to source code"><var>$product</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#35-40" title="Go to source code"><var>$product</var></a>
 
 				<div class="description short">
 					<p>Project</p>
@@ -1523,11 +1529,11 @@
 		<tr data-order="country" id="$country">
 			<td class="attributes"><code>
 				protected  
-				<code><a href="class-SIW_Country.html">SIW_Country</a></code>
+				<code><a href="class-SIW_Data_Country.html">SIW_Data_Country</a></code>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#45-50" title="Go to source code"><var>$country</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#42-47" title="Go to source code"><var>$country</var></a>
 
 				<div class="description short">
 					<p>Land van project</p>
@@ -1549,11 +1555,11 @@
 		<tr data-order="languages" id="$languages">
 			<td class="attributes"><code>
 				protected  
-				<code><a href="class-SIW_Language.html">SIW_Language</a>[]</code>
+				<code><a href="class-SIW_Data_Language.html">SIW_Data_Language</a>[]</code>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#52-57" title="Go to source code"><var>$languages</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#49-54" title="Go to source code"><var>$languages</var></a>
 
 				<div class="description short">
 					<p>Projecttalen</p>
@@ -1575,11 +1581,11 @@
 		<tr data-order="work_types" id="$work_types">
 			<td class="attributes"><code>
 				protected  
-				<code><a href="class-SIW_Work_Type.html">SIW_Work_Type</a>[]</code>
+				<code><a href="class-SIW_Data_Work_Type.html">SIW_Data_Work_Type</a>[]</code>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#59-64" title="Go to source code"><var>$work_types</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#56-61" title="Go to source code"><var>$work_types</var></a>
 
 				<div class="description short">
 					<p>Soort werk van het project</p>
@@ -1605,7 +1611,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#66-71" title="Go to source code"><var>$tariffs</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#63-68" title="Go to source code"><var>$tariffs</var></a>
 
 				<div class="description short">
 					<p>Tarieven die van toepassing zijn</p>
@@ -1631,7 +1637,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_WC_Import_Product.html#73-78" title="Go to source code"><var>$target_audiences</var></a>
+					<a href="source-class-SIW_WC_Import_Product.html#70-75" title="Go to source code"><var>$target_audiences</var></a>
 
 				<div class="description short">
 					<p>Doelgroepen</p>
@@ -1665,6 +1671,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

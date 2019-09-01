@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -126,10 +134,6 @@
 							Plato						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
-							</li>
-					<li>
 						<a href="package-SIW.Widgets.html">
 							Widgets						</a>
 							</li>
@@ -146,8 +150,9 @@
 			<h3>Classes</h3>
 			<ul>
 				<li class="active"><a href="class-SIW_Module_Cache_Rebuild.html">SIW_Module_Cache_Rebuild</a></li>
-				<li><a href="class-SIW_Module_Cookie_Notification.html">SIW_Module_Cookie_Notification</a></li>
+				<li><a href="class-SIW_Module_Cookie_Notice.html">SIW_Module_Cookie_Notice</a></li>
 				<li><a href="class-SIW_Module_Google_Analytics.html">SIW_Module_Google_Analytics</a></li>
+				<li><a href="class-SIW_Module_Menu_Cart.html">SIW_Module_Menu_Cart</a></li>
 				<li><a href="class-SIW_Module_Social_Share.html">SIW_Module_Social_Share</a></li>
 				<li><a href="class-SIW_Module_Topbar.html">SIW_Module_Topbar</a></li>
 			</ul>
@@ -194,7 +199,7 @@
 				<code><a href="class-SIW_Util.html">SIW_Util</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_Properties.html">SIW_Properties</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_Module_Cache_Rebuild.html#7-90" title="Go to source code">modules/class-siw-module-cache-rebuild.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Module_Cache_Rebuild.html#4-93" title="Go to source code">modules/class-siw-module-cache-rebuild.php</a>
 		<br>
 	</div>
 
@@ -215,7 +220,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#19-31" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#23-35" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -245,7 +250,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_schedule_cache_rebuild">#</a>
-			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#33-45" title="Go to source code">schedule_cache_rebuild</a>( )</code>
+			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#37-48" title="Go to source code">schedule_cache_rebuild</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt een scheduled event toe</p>
@@ -275,7 +280,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_rebuild_cache">#</a>
-			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#47-53" title="Go to source code">rebuild_cache</a>( )</code>
+			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#50-56" title="Go to source code">rebuild_cache</a>( )</code>
 
 			<div class="description short">
 				<p>Leegt de cache en start de preload</p>
@@ -305,7 +310,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_setup_sitemap">#</a>
-			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#55-69" title="Go to source code">setup_sitemap</a>( <span>string <var>$sitemap_type</var></span>, <span>string <var>$sitemap_url</var></span> )</code>
+			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#58-72" title="Go to source code">setup_sitemap</a>( <span>string <var>$sitemap_type</var></span>, <span>string <var>$sitemap_url</var></span> )</code>
 
 			<div class="description short">
 				<p>Genereert de sitemap voor de preload</p>
@@ -342,7 +347,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_sitemaps_for_preload">#</a>
-			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#71-89" title="Go to source code">set_sitemaps_for_preload</a>( <span>array <var>$sitemaps</var></span> )</code>
+			<code><a href="source-class-SIW_Module_Cache_Rebuild.html#74-92" title="Go to source code">set_sitemaps_for_preload</a>( <span>array <var>$sitemaps</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt alle sitemaps toe aan preload</p>
@@ -375,6 +380,37 @@
 
 
 
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="HOOK" id="HOOK">
+				
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-SIW_Module_Cache_Rebuild.html#16-21" title="Go to source code"><b>HOOK</b></a>
+					</code>
+
+					<div class="description short">
+						<p>Hooknaam</p>
+					</div>
+
+					<div class="description detailed hidden">
+						<p>Hooknaam</p>
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HOOK" class="anchor">#</a>
+						<code><span class="php-quote">'siw_rebuild_cache'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
 
 
 
@@ -386,6 +422,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

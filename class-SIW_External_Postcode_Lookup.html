@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -147,6 +151,7 @@
 			<ul>
 				<li><a href="class-SIW_External_Exchange_Rates.html">SIW_External_Exchange_Rates</a></li>
 				<li class="active"><a href="class-SIW_External_Postcode_Lookup.html">SIW_External_Postcode_Lookup</a></li>
+				<li><a href="class-SIW_External_Spam_Check.html">SIW_External_Spam_Check</a></li>
 			</ul>
 
 
@@ -190,8 +195,8 @@
 				<b>Used by:</b>
 				<code><a href="class-SIW_API_Postcode_Lookup.html">SIW_API_Postcode_Lookup</a></code><br>
 				<b>Link:</b>
-				<a href="https://www.postcodeapi.nu/docs/">https://www.postcodeapi.nu/docs/</a><br>
-			<b>Located at</b> <a href="source-class-SIW_External_Postcode_Lookup.html#7-98" title="Go to source code">external/class-siw-external-postcode-lookup.php</a>
+				<a href="https://github.com/PDOK/locatieserver">https://github.com/PDOK/locatieserver</a><br>
+			<b>Located at</b> <a href="source-class-SIW_External_Postcode_Lookup.html#3-75" title="Go to source code">external/class-siw-external-postcode-lookup.php</a>
 		<br>
 	</div>
 
@@ -201,36 +206,6 @@
 			<div class="panel-heading"><h2>Methods summary</h2></div>
 			<table class="summary table table-bordered table-striped methods" id="methods">
 			
-		<tr data-order="__construct" id="___construct">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SIW_External_Postcode_Lookup.html#25-33" title="Go to source code">__construct</a>( )</code>
-
-			<div class="description short">
-				<p>Constructor</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Constructor</p>
-
-
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
 		<tr data-order="get_address" id="_get_address">
 
 			<td class="attributes"><code>
@@ -242,7 +217,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_address">#</a>
-			<code><a href="source-class-SIW_External_Postcode_Lookup.html#35-54" title="Go to source code">get_address</a>( <span>string <var>$postcode</var></span>, <span>string <var>$housenumber</var></span> )</code>
+			<code><a href="source-class-SIW_External_Postcode_Lookup.html#14-33" title="Go to source code">get_address</a>( <span>string <var>$postcode</var></span>, <span>string <var>$housenumber</var></span> )</code>
 
 			<div class="description short">
 				<p>Zoekt straat en woonplaats op basis van postcode en huisnumme</p>
@@ -287,7 +262,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_retrieve_address">#</a>
-			<code><a href="source-class-SIW_External_Postcode_Lookup.html#56-97" title="Go to source code">retrieve_address</a>( <span>string <var>$postcode</var></span>, <span>string <var>$housenumber</var></span> )</code>
+			<code><a href="source-class-SIW_External_Postcode_Lookup.html#35-74" title="Go to source code">retrieve_address</a>( <span>string <var>$postcode</var></span>, <span>string <var>$housenumber</var></span> )</code>
 
 			<div class="description short">
 				<p>Haalt adres op bij PostcodeAPI.nu</p>
@@ -329,43 +304,6 @@
 
 
 
-		<div class="panel panel-default">
-            <div class="panel-heading"><h2>Properties summary</h2></div>
-			<table class="summary table table-bordered table-striped properties" id="properties">
-			
-		<tr data-order="api_key" id="$api_key">
-			<td class="attributes"><code>
-				protected  
-				string
-			</code></td>
-
-			<td class="name">
-					<a href="source-class-SIW_External_Postcode_Lookup.html#18-23" title="Go to source code"><var>$api_key</var></a>
-
-				<div class="description short">
-					<p>API key</p>
-				</div>
-
-				<div class="description detailed hidden">
-					<p>API key</p>
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$api_key" class="anchor">#</a>
-					<code></code>
-				</div>
-			</td>
-		</tr>
-			</table>
-		</div>
-
-
-
-
-
-
 </div>
 	</div>
 
@@ -374,6 +312,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -153,9 +157,11 @@
 				<li><a href="class-SIW_Widget_CTA.html">SIW_Widget_CTA</a></li>
 				<li><a href="class-SIW_Widget_Dutch_Projects.html">SIW_Widget_Dutch_Projects</a></li>
 				<li><a href="class-SIW_Widget_Features.html">SIW_Widget_Features</a></li>
+				<li><a href="class-SIW_Widget_Google_Maps.html">SIW_Widget_Google_Maps</a></li>
 				<li><a href="class-SIW_Widget_Map.html">SIW_Widget_Map</a></li>
 				<li><a href="class-SIW_Widget_Newsletter.html">SIW_Widget_Newsletter</a></li>
 				<li class="active"><a href="class-SIW_Widget_Organisation.html">SIW_Widget_Organisation</a></li>
+				<li><a href="class-SIW_Widget_Pie_Chart.html">SIW_Widget_Pie_Chart</a></li>
 				<li><a href="class-SIW_Widget_Quick_Search_Form.html">SIW_Widget_Quick_Search_Form</a></li>
 				<li><a href="class-SIW_Widget_Quick_Search_Results.html">SIW_Widget_Quick_Search_Results</a></li>
 				<li><a href="class-SIW_Widget_Quote.html">SIW_Widget_Quote</a></li>
@@ -221,7 +227,12 @@ SiteOrigin_Widget
 				Maarten Bruna<br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_Properties.html">SIW_Properties</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_Widget_Organisation.html#13-93" title="Go to source code">widgets/organisation/organisation.php</a>
+				<b>Widget_data:</b>
+				<p>Widget Name: SIW: Organisatiegegevens
+Description: Toont organisatiegegevens.
+Author: SIW Internationale Vrijwilligersprojecten
+Author URI: https://www.siw.nl</p><br>
+			<b>Located at</b> <a href="source-class-SIW_Widget_Organisation.html#3-139" title="Go to source code">widgets/organisation/organisation.php</a>
 		<br>
 	</div>
 
@@ -242,7 +253,7 @@ SiteOrigin_Widget
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_widget_properties">#</a>
-			<code><a href="source-class-SIW_Widget_Organisation.html#38-44" title="Go to source code">set_widget_properties</a>( )</code>
+			<code><a href="source-class-SIW_Widget_Organisation.html#34-40" title="Go to source code">set_widget_properties</a>( )</code>
 
 			<div class="description short">
 				<p>Zet eigenschappen van widget</p>
@@ -272,7 +283,7 @@ SiteOrigin_Widget
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_widget_form">#</a>
-			<code><a href="source-class-SIW_Widget_Organisation.html#46-64" title="Go to source code">get_widget_form</a>( )</code>
+			<code><a href="source-class-SIW_Widget_Organisation.html#42-60" title="Go to source code">get_widget_form</a>( )</code>
 
 			<div class="description short">
 				
@@ -302,7 +313,7 @@ SiteOrigin_Widget
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_content">#</a>
-			<code><a href="source-class-SIW_Widget_Organisation.html#66-92" title="Go to source code">get_content</a>( <span>array <var>$instance</var></span>, <span>array <var>$args</var></span>, <span>array <var>$template_vars</var></span>, <span>string <var>$css_name</var></span> )</code>
+			<code><a href="source-class-SIW_Widget_Organisation.html#62-88" title="Go to source code">get_content</a>( <span>array <var>$instance</var></span>, <span>array <var>$args</var></span>, <span>array <var>$template_vars</var></span>, <span>string <var>$css_name</var></span> )</code>
 
 			<div class="description short">
 				<p>Genereert specifieke inhoud van widget</p>
@@ -323,6 +334,74 @@ SiteOrigin_Widget
 						<dt><var>$css_name</var></dt>
 						<dd></dd>
 					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_board_members_list" id="_get_board_members_list">
+
+			<td class="attributes"><code>
+				 protected 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_board_members_list">#</a>
+			<code><a href="source-class-SIW_Widget_Organisation.html#90-106" title="Go to source code">get_board_members_list</a>( )</code>
+
+			<div class="description short">
+				<p>Geeft lijst met bestuursleden terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft lijst met bestuursleden terug</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_annual_reports" id="_get_annual_reports">
+
+			<td class="attributes"><code>
+				 protected 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_annual_reports">#</a>
+			<code><a href="source-class-SIW_Widget_Organisation.html#108-138" title="Go to source code">get_annual_reports</a>( )</code>
+
+			<div class="description short">
+				<p>Geeft jaarverslagen terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft jaarverslagen terug</p>
+
+
 
 					<h4>Returns</h4>
 					<div class="list">
@@ -366,7 +445,7 @@ SiteOrigin_Widget
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Widget_Organisation.html#24-29" title="Go to source code"><var>$widget_id</var></a>
+					<a href="source-class-SIW_Widget_Organisation.html#20-25" title="Go to source code"><var>$widget_id</var></a>
 
 				<div class="description short">
 					<p>ID van widget</p>
@@ -392,7 +471,7 @@ SiteOrigin_Widget
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Widget_Organisation.html#31-36" title="Go to source code"><var>$widget_dashicon</var></a>
+					<a href="source-class-SIW_Widget_Organisation.html#27-32" title="Go to source code"><var>$widget_dashicon</var></a>
 
 				<div class="description short">
 					<p>Icon-class van widget voor pagebuilder</p>
@@ -435,6 +514,6 @@ SiteOrigin_Widget
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -150,14 +154,20 @@
 				<li class="active"><a href="class-SIW_WC_Admin_Product.html">SIW_WC_Admin_Product</a></li>
 				<li><a href="class-SIW_WC_Admin_Product_Columns.html">SIW_WC_Admin_Product_Columns</a></li>
 				<li><a href="class-SIW_WC_Checkout.html">SIW_WC_Checkout</a></li>
+				<li><a href="class-SIW_WC_Checkout_Discount.html">SIW_WC_Checkout_Discount</a></li>
 				<li><a href="class-SIW_WC_Checkout_Newsletter.html">SIW_WC_Checkout_Newsletter</a></li>
+				<li><a href="class-SIW_WC_Checkout_Validation.html">SIW_WC_Checkout_Validation</a></li>
+				<li><a href="class-SIW_WC_Coupon.html">SIW_WC_Coupon</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_On_Hold_Order.html">SIW_WC_Email_Customer_On_Hold_Order</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_Processing_Order.html">SIW_WC_Email_Customer_Processing_Order</a></li>
 				<li><a href="class-SIW_WC_Email_New_Order.html">SIW_WC_Email_New_Order</a></li>
 				<li><a href="class-SIW_WC_Emails.html">SIW_WC_Emails</a></li>
 				<li><a href="class-SIW_WC_Import_Product.html">SIW_WC_Import_Product</a></li>
+				<li><a href="class-SIW_WC_Import_Product_Image.html">SIW_WC_Import_Product_Image</a></li>
+				<li><a href="class-SIW_WC_Order_Export.html">SIW_WC_Order_Export</a></li>
 				<li><a href="class-SIW_WC_Product.html">SIW_WC_Product</a></li>
 				<li><a href="class-SIW_WC_Product_Archive.html">SIW_WC_Product_Archive</a></li>
+				<li><a href="class-SIW_WC_Product_Tabs.html">SIW_WC_Product_Tabs</a></li>
 			</ul>
 
 
@@ -177,7 +187,7 @@
 
 
 	<div class="description">
-	<p>`TODO: beschrijving</p>
+	<p>Aanpassingen aan admin-scherm voor producten</p>
 	</div>
 
 
@@ -204,7 +214,7 @@
 				<code><a href="class-SIW_WC_Admin_Product_Columns.html">SIW_WC_Admin_Product_Columns</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_Admin_Notices.html">SIW_Admin_Notices</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_WC_Admin_Product.html#7-369" title="Go to source code">woocommerce/admin/class-siw-wc-admin-product.php</a>
+			<b>Located at</b> <a href="source-class-SIW_WC_Admin_Product.html#3-363" title="Go to source code">woocommerce/admin/class-siw-wc-admin-product.php</a>
 		<br>
 	</div>
 
@@ -225,7 +235,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#20-43" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#16-39" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				
@@ -255,7 +265,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_editor">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#45-50" title="Go to source code">remove_editor</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#41-46" title="Go to source code">remove_editor</a>( )</code>
 
 			<div class="description short">
 				<p>Verwijdert de texteditor</p>
@@ -285,7 +295,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_admin_columns">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#52-63" title="Go to source code">remove_admin_columns</a>( <span>array <var>$columns</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#48-59" title="Go to source code">remove_admin_columns</a>( <span>array <var>$columns</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert overbodige admin columns</p>
@@ -324,7 +334,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_admin_columns">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#65-76" title="Go to source code">add_admin_columns</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#61-71" title="Go to source code">add_admin_columns</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt extra admin columns toe</p>
@@ -354,7 +364,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_bulk_actions">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#78-89" title="Go to source code">add_bulk_actions</a>( <span>array <var>$bulk_actions</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#73-84" title="Go to source code">add_bulk_actions</a>( <span>array <var>$bulk_actions</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt bulk acties toe</p>
@@ -397,7 +407,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_handle_bulk_actions">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#91-110" title="Go to source code">handle_bulk_actions</a>( <span>string <var>$redirect_to</var></span>, <span>string <var>$action</var></span>, <span>array <var>$post_ids</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#86-105" title="Go to source code">handle_bulk_actions</a>( <span>string <var>$redirect_to</var></span>, <span>string <var>$action</var></span>, <span>array <var>$post_ids</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwerkt bulkacties</p>
@@ -440,7 +450,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_approval_option">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#112-134" title="Go to source code">show_approval_option</a>( <span>WP_Post <var>$post</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#107-129" title="Go to source code">show_approval_option</a>( <span>WP_Post <var>$post</var></span> )</code>
 
 			<div class="description short">
 				<p>Toont optie om nog niet gepubliceerd project af of goed te keuren</p>
@@ -475,7 +485,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_save_approval_result">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#137-161" title="Go to source code">save_approval_result</a>( <span>WC_Product <var>$product</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#132-156" title="Go to source code">save_approval_result</a>( <span>WC_Product <var>$product</var></span> )</code>
 
 			<div class="description short">
 				<p>Slaat het resultaat van de beoordeling op</p>
@@ -510,7 +520,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_tabs">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#163-193" title="Go to source code">add_tabs</a>( <span>array <var>$tabs</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#158-188" title="Go to source code">add_tabs</a>( <span>array <var>$tabs</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt extra product tabs toe</p>
@@ -549,7 +559,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_hide_tabs">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#195-213" title="Go to source code">hide_tabs</a>( <span>array <var>$tabs</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#190-208" title="Go to source code">hide_tabs</a>( <span>array <var>$tabs</var></span> )</code>
 
 			<div class="description short">
 				<p>Verbergt overbodige product tabs</p>
@@ -588,7 +598,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_import_tab">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#215-237" title="Go to source code">show_import_tab</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#210-232" title="Go to source code">show_import_tab</a>( )</code>
 
 			<div class="description short">
 				<p>Toont tab met extra zichtbaarheids-opties</p>
@@ -618,7 +628,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_approval_tab">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#239-298" title="Go to source code">show_approval_tab</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#234-293" title="Go to source code">show_approval_tab</a>( )</code>
 
 			<div class="description short">
 				<p>Toont tab met beoordelingsresultaat</p>
@@ -648,7 +658,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_description_tab">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#300-318" title="Go to source code">show_description_tab</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#295-313" title="Go to source code">show_description_tab</a>( )</code>
 
 			<div class="description short">
 				<p>Toont beschrijving van het project</p>
@@ -678,7 +688,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_save_product_data">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#320-333" title="Go to source code">save_product_data</a>( <span>WC_Product <var>$product</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#315-328" title="Go to source code">save_product_data</a>( <span>WC_Product <var>$product</var></span> )</code>
 
 			<div class="description short">
 				<p>Slaat gewijzigde meta-velden op</p>
@@ -713,7 +723,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_meta_boxes">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#335-348" title="Go to source code">remove_meta_boxes</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#330-342" title="Go to source code">remove_meta_boxes</a>( )</code>
 
 			<div class="description short">
 				<p>Verwijdert metaboxes</p>
@@ -743,7 +753,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_inline_style">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Product.html#350-368" title="Go to source code">add_inline_style</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Product.html#344-362" title="Go to source code">add_inline_style</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt styling voor help tips toe</p>
@@ -782,6 +792,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

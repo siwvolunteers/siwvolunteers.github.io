@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -126,10 +134,6 @@
 							Plato						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
-							</li>
-					<li>
 						<a href="package-SIW.Widgets.html">
 							Widgets						</a>
 							</li>
@@ -146,8 +150,9 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-SIW_Module_Cache_Rebuild.html">SIW_Module_Cache_Rebuild</a></li>
-				<li><a href="class-SIW_Module_Cookie_Notification.html">SIW_Module_Cookie_Notification</a></li>
+				<li><a href="class-SIW_Module_Cookie_Notice.html">SIW_Module_Cookie_Notice</a></li>
 				<li class="active"><a href="class-SIW_Module_Google_Analytics.html">SIW_Module_Google_Analytics</a></li>
+				<li><a href="class-SIW_Module_Menu_Cart.html">SIW_Module_Menu_Cart</a></li>
 				<li><a href="class-SIW_Module_Social_Share.html">SIW_Module_Social_Share</a></li>
 				<li><a href="class-SIW_Module_Topbar.html">SIW_Module_Topbar</a></li>
 			</ul>
@@ -187,12 +192,12 @@
 		<b>Package:</b> <a href="package-SIW.html">SIW</a>\<a href="package-SIW.Modules.html">Modules</a><br>
 
 				<b>Copyright:</b>
-				2018 SIW Internationale Vrijwilligersprojecten<br>
+				2018-2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
 				<b>Uses:</b>
 				SIW_Enhanced_Ecommerce<br>
-			<b>Located at</b> <a href="source-class-SIW_Module_Google_Analytics.html#7-84" title="Go to source code">modules/class-siw-module-google-analytics.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Module_Google_Analytics.html#3-272" title="Go to source code">modules/class-siw-module-google-analytics.php</a>
 		<br>
 	</div>
 
@@ -213,7 +218,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Module_Google_Analytics.html#32-43" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#36-49" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -221,36 +226,6 @@
 
 			<div class="description detailed hidden">
 				<p>Init</p>
-
-
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
-		<tr data-order="enqueue_scripts" id="_enqueue_scripts">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_enqueue_scripts">#</a>
-			<code><a href="source-class-SIW_Module_Google_Analytics.html#45-64" title="Go to source code">enqueue_scripts</a>( )</code>
-
-			<div class="description short">
-				<p>Voegt scripts toe</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Voegt scripts toe</p>
 
 
 
@@ -273,7 +248,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_property_id">#</a>
-			<code><a href="source-class-SIW_Module_Google_Analytics.html#66-71" title="Go to source code">set_property_id</a>( )</code>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#51-56" title="Go to source code">set_property_id</a>( )</code>
 
 			<div class="description short">
 				<p>Haalt het GA property ID op</p>
@@ -303,7 +278,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_tracking_enabled">#</a>
-			<code><a href="source-class-SIW_Module_Google_Analytics.html#73-83" title="Go to source code">tracking_enabled</a>( )</code>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#58-68" title="Go to source code">tracking_enabled</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft aan of tracking ingeschakeld moet worden</p>
@@ -325,6 +300,338 @@
 			</div>
 			</div></td>
 		</tr>
+
+		<tr data-order="enqueue_scripts" id="_enqueue_scripts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_enqueue_scripts">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#70-79" title="Go to source code">enqueue_scripts</a>( )</code>
+
+			<div class="description short">
+				<p>Voegt scripts toe</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt scripts toe</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="generate_snippet" id="_generate_snippet">
+
+			<td class="attributes"><code>
+				 protected 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_snippet">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#81-100" title="Go to source code">generate_snippet</a>( )</code>
+
+			<div class="description short">
+				<p>Genereert snippet</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereert snippet</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="generate_ecommerce_script" id="_generate_ecommerce_script">
+
+			<td class="attributes"><code>
+				 protected 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_ecommerce_script">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#102-155" title="Go to source code">generate_ecommerce_script</a>( )</code>
+
+			<div class="description short">
+				<p>Genereert Enhanced Ecommerce script</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereert Enhanced Ecommerce script</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_product_data" id="_get_product_data">
+
+			<td class="attributes"><code>
+				 protected 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_product_data">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#157-189" title="Go to source code">get_product_data</a>( <span>WC_Product <var>$product</var></span>, <span>WC_Product_Variation <var>$variation</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+			<div class="description short">
+				<p>Geeft productdata voor GA terug</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Geeft productdata voor GA terug</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$product</var></dt>
+						<dd></dd>
+						<dt><var>$variation</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+					<h4>Todo</h4>
+					<div class="list">
+							land of partner als brand toevoegen<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="generate_cart_data" id="_generate_cart_data">
+
+			<td class="attributes"><code>
+				 protected 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_generate_cart_data">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#191-205" title="Go to source code">generate_cart_data</a>( )</code>
+
+			<div class="description short">
+				<p>Genereert cart data (om verwijderen uit cart te tracken)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Genereert cart data (om verwijderen uit cart te tracken)</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="track_add_to_cart" id="_track_add_to_cart">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_track_add_to_cart">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#207-231" title="Go to source code">track_add_to_cart</a>( <span>string <var>$cart_item_key</var></span>, <span>integer <var>$product_id</var></span>, <span>integer <var>$quantity</var></span>, <span>integer <var>$variation_id</var></span>, <span>array <var>$variation</var></span>, <span>array <var>$cart_item_data</var></span> )</code>
+
+			<div class="description short">
+				<p>Track toevoegen aan cart</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Track toevoegen aan cart</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cart_item_key</var></dt>
+						<dd></dd>
+						<dt><var>$product_id</var></dt>
+						<dd></dd>
+						<dt><var>$quantity</var></dt>
+						<dd></dd>
+						<dt><var>$variation_id</var></dt>
+						<dd></dd>
+						<dt><var>$variation</var></dt>
+						<dd></dd>
+						<dt><var>$cart_item_data</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_variation_id_to_cart_item_remove_link" id="_add_variation_id_to_cart_item_remove_link">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_variation_id_to_cart_item_remove_link">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#233-246" title="Go to source code">add_variation_id_to_cart_item_remove_link</a>( <span>string <var>$link</var></span>, <span>string <var>$cart_item_key</var></span> )</code>
+
+			<div class="description short">
+				<p>Voegt variatie-id toe aan remove from cart link</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Voegt variatie-id toe aan remove from cart link</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$link</var></dt>
+						<dd></dd>
+						<dt><var>$cart_item_key</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="add_script_to_session" id="_add_script_to_session">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_add_script_to_session">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#248-256" title="Go to source code">add_script_to_session</a>( <span>array <var>$script</var></span> )</code>
+
+			<div class="description short">
+				<p>Sla script op in sessie om na redirect te kunnen tonen</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Sla script op in sessie om na redirect te kunnen tonen</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$script</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="get_script_from_session" id="_get_script_from_session">
+
+			<td class="attributes"><code>
+				 protected 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_script_from_session">#</a>
+			<code><a href="source-class-SIW_Module_Google_Analytics.html#258-270" title="Go to source code">get_script_from_session</a>( )</code>
+
+			<div class="description short">
+				<p>Haal opgeslagen script uit WC-sessie</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Haal opgeslagen script uit WC-sessie</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
 			</table>
 		</div>
 
@@ -334,6 +641,37 @@
 
 
 
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="SESSION_SCRIPT_KEY" id="SESSION_SCRIPT_KEY">
+				
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-SIW_Module_Google_Analytics.html#14-17" title="Go to source code"><b>SESSION_SCRIPT_KEY</b></a>
+					</code>
+
+					<div class="description short">
+						<p>Key voor WooCommerce-sessie</p>
+					</div>
+
+					<div class="description detailed hidden">
+						<p>Key voor WooCommerce-sessie</p>
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#SESSION_SCRIPT_KEY" class="anchor">#</a>
+						<code><span class="php-quote">'siw_enhanced_ecommerce_script'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
 
 
 
@@ -349,7 +687,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Module_Google_Analytics.html#18-23" title="Go to source code"><var>$property_id</var></a>
+					<a href="source-class-SIW_Module_Google_Analytics.html#19-24" title="Go to source code"><var>$property_id</var></a>
 
 				<div class="description short">
 					<p>Google Analytics property ID</p>
@@ -368,28 +706,31 @@
 			</td>
 		</tr>
 
-		<tr data-order="in_footer" id="$in_footer">
+		<tr data-order="tracker_settings" id="$tracker_settings">
 			<td class="attributes"><code>
 				protected  
-				boolean
+				array
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Module_Google_Analytics.html#25-30" title="Go to source code"><var>$in_footer</var></a>
+					<a href="source-class-SIW_Module_Google_Analytics.html#26-34" title="Go to source code"><var>$tracker_settings</var></a>
 
 				<div class="description short">
-					<p>Geeft aan of de scripts in de footer geplaatst moeten worden</p>
+					<p>Instellingen voor tracker</p>
 				</div>
 
 				<div class="description detailed hidden">
-					<p>Geeft aan of de scripts in de footer geplaatst moeten worden</p>
+					<p>Instellingen voor tracker</p>
 
 				</div>
 			</td>
 			<td class="value">
 				<div>
-					<a href="#$in_footer" class="anchor">#</a>
-					<code><span class="php-keyword1">true</span></code>
+					<a href="#$tracker_settings" class="anchor">#</a>
+					<code>[
+    <span class="php-quote">'anonymizeIp'</span> =&gt; <span class="php-keyword1">true</span>,
+    <span class="php-quote">'forceSSL'</span>    =&gt; <span class="php-keyword1">true</span>,
+]</code>
 				</div>
 			</td>
 		</tr>
@@ -409,6 +750,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

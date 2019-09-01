@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -126,10 +134,6 @@
 							Plato						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
-							</li>
-					<li>
 						<a href="package-SIW.Widgets.html">
 							Widgets						</a>
 							</li>
@@ -146,17 +150,23 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-SIW_Assets.html">SIW_Assets</a></li>
+				<li><a href="class-SIW_Autoloader.html">SIW_Autoloader</a></li>
+				<li><a href="class-SIW_Bootstrap.html">SIW_Bootstrap</a></li>
 				<li><a href="class-SIW_CSS.html">SIW_CSS</a></li>
 				<li><a href="class-SIW_Formatting.html">SIW_Formatting</a></li>
+				<li><a href="class-SIW_Forms.html">SIW_Forms</a></li>
 				<li><a href="class-SIW_Head.html">SIW_Head</a></li>
 				<li class="active"><a href="class-SIW_htaccess.html">SIW_htaccess</a></li>
+				<li><a href="class-SIW_HTML.html">SIW_HTML</a></li>
 				<li><a href="class-SIW_i18n.html">SIW_i18n</a></li>
 				<li><a href="class-SIW_Icons.html">SIW_Icons</a></li>
+				<li><a href="class-SIW_Login.html">SIW_Login</a></li>
 				<li><a href="class-SIW_Post_Type.html">SIW_Post_Type</a></li>
 				<li><a href="class-SIW_Properties.html">SIW_Properties</a></li>
 				<li><a href="class-SIW_Scheduler.html">SIW_Scheduler</a></li>
 				<li><a href="class-SIW_Shortcodes.html">SIW_Shortcodes</a></li>
 				<li><a href="class-SIW_Taxonomy.html">SIW_Taxonomy</a></li>
+				<li><a href="class-SIW_Upload_Dir.html">SIW_Upload_Dir</a></li>
 				<li><a href="class-SIW_Util.html">SIW_Util</a></li>
 				<li><a href="class-SIW_Widgets.html">SIW_Widgets</a></li>
 			</ul>
@@ -201,7 +211,7 @@
 				Maarten Bruna<br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_Properties.html">SIW_Properties</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_htaccess.html#6-344" title="Go to source code">class-siw-htaccess.php</a>
+			<b>Located at</b> <a href="source-class-SIW_htaccess.html#3-312" title="Go to source code">class-siw-htaccess.php</a>
 		<br>
 	</div>
 
@@ -222,7 +232,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_htaccess.html#17-29" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_htaccess.html#14-25" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -252,7 +262,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_regenerate_htaccess">#</a>
-			<code><a href="source-class-SIW_htaccess.html#31-41" title="Go to source code">regenerate_htaccess</a>( )</code>
+			<code><a href="source-class-SIW_htaccess.html#27-37" title="Go to source code">regenerate_htaccess</a>( )</code>
 
 			<div class="description short">
 				<p>Genereert htaccess opnieuw</p>
@@ -282,7 +292,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_https_redirect">#</a>
-			<code><a href="source-class-SIW_htaccess.html#43-62" title="Go to source code">add_https_redirect</a>( <span>string <var>$marker</var></span> )</code>
+			<code><a href="source-class-SIW_htaccess.html#39-58" title="Go to source code">add_https_redirect</a>( <span>string <var>$marker</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt rewrite rules van http naar https toe</p>
@@ -321,7 +331,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_security_headers">#</a>
-			<code><a href="source-class-SIW_htaccess.html#64-90" title="Go to source code">add_security_headers</a>( <span>string <var>$marker</var></span> )</code>
+			<code><a href="source-class-SIW_htaccess.html#60-83" title="Go to source code">add_security_headers</a>( <span>string <var>$marker</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt security headers toe</p>
@@ -360,7 +370,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_firewall">#</a>
-			<code><a href="source-class-SIW_htaccess.html#92-216" title="Go to source code">add_firewall</a>( <span>string <var>$marker</var></span> )</code>
+			<code><a href="source-class-SIW_htaccess.html#85-209" title="Go to source code">add_firewall</a>( <span>string <var>$marker</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt regels van 6G FIREWALL/BLACKLIST toe</p>
@@ -403,7 +413,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_security_rules">#</a>
-			<code><a href="source-class-SIW_htaccess.html#218-276" title="Go to source code">add_security_rules</a>( <span>string <var>$marker</var></span> )</code>
+			<code><a href="source-class-SIW_htaccess.html#211-269" title="Go to source code">add_security_rules</a>( <span>string <var>$marker</var></span> )</code>
 
 			<div class="description short">
 				<p>Voegt diverse secrity regels toe</p>
@@ -442,7 +452,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_rules">#</a>
-			<code><a href="source-class-SIW_htaccess.html#278-317" title="Go to source code">format_rules</a>( <span>array <var>$rules</var></span> )</code>
+			<code><a href="source-class-SIW_htaccess.html#271-310" title="Go to source code">format_rules</a>( <span>array <var>$rules</var></span> )</code>
 
 			<div class="description short">
 				<p>Formatteert htaccess-regels o.b.v. array</p>
@@ -455,47 +465,6 @@
 					<h4>Parameters</h4>
 					<div class="list"><dl>
 						<dt><var>$rules</var></dt>
-						<dd></dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						string
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
-		<tr data-order="generate_report_uri" id="_generate_report_uri">
-
-			<td class="attributes"><code>
-				 protected 
-				string
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_generate_report_uri">#</a>
-			<code><a href="source-class-SIW_htaccess.html#319-343" title="Go to source code">generate_report_uri</a>( <span>string <var>$type</var></span>, <span>boolean <var>$enforce</var> = <span class="php-keyword1">true</span> </span> )</code>
-
-			<div class="description short">
-				<p>Genereert report-uri</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Genereert report-uri</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$type</var></dt>
-						<dd></dd>
-						<dt><var>$enforce</var></dt>
 						<dd></dd>
 					</dl></div>
 
@@ -531,6 +500,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

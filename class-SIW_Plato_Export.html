@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -212,7 +216,7 @@
 				2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Plato_Export.html#7-112" title="Go to source code">plato-interface/abstract-siw-plato-export.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Plato_Export.html#3-115" title="Go to source code">plato-interface/class-siw-plato-export.php</a>
 		<br>
 	</div>
 
@@ -233,7 +237,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SIW_Plato_Export.html#30-36" title="Go to source code">__construct</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Export.html#33-39" title="Go to source code">__construct</a>( )</code>
 
 			<div class="description short">
 				<p>Constructor</p>
@@ -265,7 +269,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_production">#</a>
-			<code><a href="source-class-SIW_Plato_Export.html#38-43" title="Go to source code">set_production</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Export.html#41-46" title="Go to source code">set_production</a>( )</code>
 
 			<div class="description short">
 				<p>Zet productiemode o.b.v. instelling</p>
@@ -295,7 +299,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_run">#</a>
-			<code><a href="source-class-SIW_Plato_Export.html#45-74" title="Go to source code">run</a>( <span> <var>$data</var></span> )</code>
+			<code><a href="source-class-SIW_Plato_Export.html#48-77" title="Go to source code">run</a>( <span> <var>$data</var></span> )</code>
 
 			<div class="description short">
 				<p>Voer de Plato-export uit</p>
@@ -329,7 +333,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate_xml">#</a>
-			<code><a href="source-class-SIW_Plato_Export.html#76-79" title="Go to source code">generate_xml</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Export.html#79-82" title="Go to source code">generate_xml</a>( )</code>
 
 			<div class="description short">
 				<p>Genereert xml</p>
@@ -359,7 +363,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_process_xml">#</a>
-			<code><a href="source-class-SIW_Plato_Export.html#81-84" title="Go to source code">process_xml</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Export.html#84-87" title="Go to source code">process_xml</a>( )</code>
 
 			<div class="description short">
 				<p>Verwerkt xml</p>
@@ -389,7 +393,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_send_xml">#</a>
-			<code><a href="source-class-SIW_Plato_Export.html#86-111" title="Go to source code">send_xml</a>( )</code>
+			<code><a href="source-class-SIW_Plato_Export.html#89-114" title="Go to source code">send_xml</a>( )</code>
 
 			<div class="description short">
 				<p>Verstuurt xml naar plato</p>
@@ -446,7 +450,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Plato_Export.html#16-21" title="Go to source code"><var>$data</var></a>
+					<a href="source-class-SIW_Plato_Export.html#12-17" title="Go to source code"><var>$data</var></a>
 
 				<div class="description short">
 					<p>Data</p>
@@ -465,6 +469,32 @@
 			</td>
 		</tr>
 
+		<tr data-order="xml_data" id="$xml_data">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SIW_Plato_Export.html#19-24" title="Go to source code"><var>$xml_data</var></a>
+
+				<div class="description short">
+					<p>XML-data</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>XML-data</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$xml_data" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+
 		<tr data-order="production" id="$production">
 			<td class="attributes"><code>
 				protected  
@@ -472,7 +502,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Plato_Export.html#23-28" title="Go to source code"><var>$production</var></a>
+					<a href="source-class-SIW_Plato_Export.html#26-31" title="Go to source code"><var>$production</var></a>
 
 				<div class="description short">
 					<p>Productiemode</p>
@@ -519,6 +549,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

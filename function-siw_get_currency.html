@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -126,10 +134,6 @@
 							Plato						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
-							</li>
-					<li>
 						<a href="package-SIW.Widgets.html">
 							Widgets						</a>
 							</li>
@@ -143,15 +147,6 @@
 
 
 		<div id="elements">
-			<h3>Classes</h3>
-			<ul>
-				<li><a href="class-SIW_Continent.html">SIW_Continent</a></li>
-				<li><a href="class-SIW_Country.html">SIW_Country</a></li>
-				<li><a href="class-SIW_Currency.html">SIW_Currency</a></li>
-				<li><a href="class-SIW_Language.html">SIW_Language</a></li>
-				<li><a href="class-SIW_Social_Network.html">SIW_Social_Network</a></li>
-				<li><a href="class-SIW_Work_Type.html">SIW_Work_Type</a></li>
-			</ul>
 
 
 
@@ -159,17 +154,22 @@
 
 			<h3>Functions</h3>
 			<ul>
+				<li><a href="function-siw_get_board_titles.html">siw_get_board_titles</a></li>
 				<li><a href="function-siw_get_continent.html">siw_get_continent</a></li>
 				<li><a href="function-siw_get_continents.html">siw_get_continents</a></li>
 				<li><a href="function-siw_get_countries.html">siw_get_countries</a></li>
 				<li><a href="function-siw_get_country.html">siw_get_country</a></li>
 				<li><a href="function-siw_get_currencies.html">siw_get_currencies</a></li>
 				<li class="active"><a href="function-siw_get_currency.html">siw_get_currency</a></li>
+				<li><a href="function-siw_get_data.html">siw_get_data</a></li>
+				<li><a href="function-siw_get_data_file_ids.html">siw_get_data_file_ids</a></li>
+				<li><a href="function-siw_get_dutch_provinces.html">siw_get_dutch_provinces</a></li>
 				<li><a href="function-siw_get_genders.html">siw_get_genders</a></li>
 				<li><a href="function-siw_get_language.html">siw_get_language</a></li>
 				<li><a href="function-siw_get_language_skill_levels.html">siw_get_language_skill_levels</a></li>
 				<li><a href="function-siw_get_languages.html">siw_get_languages</a></li>
 				<li><a href="function-siw_get_nationalities.html">siw_get_nationalities</a></li>
+				<li><a href="function-siw_get_project_types.html">siw_get_project_types</a></li>
 				<li><a href="function-siw_get_social_networks.html">siw_get_social_networks</a></li>
 				<li><a href="function-siw_get_work_type.html">siw_get_work_type</a></li>
 				<li><a href="function-siw_get_work_types.html">siw_get_work_types</a></li>
@@ -192,7 +192,7 @@
 
 	<div class="alert alert-info">
 		
-		<b>Package:</b> <a href="package-SIW.html">SIW</a>\<a href="package-SIW.Reference.Data.html">Reference-Data</a><br>
+		<b>Package:</b> <a href="package-SIW.html">SIW</a>\<a href="package-SIW.Functions.html">Functions</a><br>
 				<b>Copyright:</b>
 				2018 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
@@ -202,8 +202,8 @@
 				<b>Used by:</b>
 				<code><a href="class-SIW_WC_Product.html">SIW_WC_Product</a></code><br>
 		<b>Located at</b>
-		<a href="source-function-siw_get_currency.html#42-55" title="Go to source code">
-			reference-data/currencies/currencies.php
+		<a href="source-function-siw_get_currency.html#32-45" title="Go to source code">
+			functions/currencies.php
 		</a><br>
 	</div>
 
@@ -212,7 +212,7 @@
         <div class="panel-heading"><h2>Parameters summary</h2></div>
 		<table class="summary table table-bordered table-striped" id="parameters">
 		<tr id="$currency">
-			<td class="name"><code></code></td>
+			<td class="name"><code>string</code></td>
 			<td class="value"><code><var>$currency</var></code></td>
 			<td></td>
 		</tr>
@@ -224,10 +224,10 @@
 		<table class="summary table table-bordered table-striped" id="returns">
 		<tr>
 			<td class="name"><code>
-				<code><a href="class-SIW_Currency.html">SIW_Currency</a></code>
+				<code><a href="class-SIW_Data_Currency.html">SIW_Data_Currency</a></code>
 			</code></td>
 			<td>
-				SIW_Currency
+				SIW_Data_Currency
 			</td>
 		</tr>
 		</table>
@@ -242,6 +242,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

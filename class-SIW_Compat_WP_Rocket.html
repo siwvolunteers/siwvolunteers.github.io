@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -157,6 +161,7 @@
 				<li><a href="class-SIW_Compat_WooCommerce.html">SIW_Compat_WooCommerce</a></li>
 				<li><a href="class-SIW_Compat_WordPress.html">SIW_Compat_WordPress</a></li>
 				<li class="active"><a href="class-SIW_Compat_WP_Rocket.html">SIW_Compat_WP_Rocket</a></li>
+				<li><a href="class-SIW_Compat_WP_Sentry_Integration.html">SIW_Compat_WP_Sentry_Integration</a></li>
 				<li><a href="class-SIW_Compat_YITH_WCAN.html">SIW_Compat_YITH_WCAN</a></li>
 			</ul>
 
@@ -195,10 +200,10 @@
 		<b>Package:</b> <a href="package-SIW.html">SIW</a>\<a href="package-SIW.Compatibility.html">Compatibility</a><br>
 
 				<b>Copyright:</b>
-				2018 SIW Internationale Vrijwilligersprojecten<br>
+				2018-2019 SIW Internationale Vrijwilligersprojecten<br>
 				<b>Author:</b>
 				Maarten Bruna<br>
-			<b>Located at</b> <a href="source-class-SIW_Compat_WP_Rocket.html#7-89" title="Go to source code">compatibility/class-siw-compat-wp-rocket.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Compat_WP_Rocket.html#4-146" title="Go to source code">compatibility/class-siw-compat-wp-rocket.php</a>
 		<br>
 	</div>
 
@@ -219,7 +224,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_Compat_WP_Rocket.html#16-32" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#13-32" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -227,6 +232,36 @@
 
 			<div class="description detailed hidden">
 				<p>Init</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+
+		<tr data-order="purge_cache" id="_purge_cache">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_purge_cache">#</a>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#34-41" title="Go to source code">purge_cache</a>( )</code>
+
+			<div class="description short">
+				<p>Cache legen na update plugin</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Cache legen na update plugin</p>
 
 
 
@@ -249,7 +284,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_excluded_js">#</a>
-			<code><a href="source-class-SIW_Compat_WP_Rocket.html#34-44" title="Go to source code">set_excluded_js</a>( <span>array <var>$excluded_files</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#43-53" title="Go to source code">set_excluded_js</a>( <span>array <var>$excluded_files</var></span> )</code>
 
 			<div class="description short">
 				<p>JS-bestanden uitsluiten van minification/concatenation</p>
@@ -288,7 +323,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_excluded_external_js">#</a>
-			<code><a href="source-class-SIW_Compat_WP_Rocket.html#46-57" title="Go to source code">set_excluded_external_js</a>( <span>array <var>$excluded_domains</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#55-66" title="Go to source code">set_excluded_external_js</a>( <span>array <var>$excluded_domains</var></span> )</code>
 
 			<div class="description short">
 				<p>Sluit externe domeinen uit van minification/concatenation</p>
@@ -331,7 +366,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_youtube_thumbnail_resolution">#</a>
-			<code><a href="source-class-SIW_Compat_WP_Rocket.html#59-68" title="Go to source code">set_youtube_thumbnail_resolution</a>( <span>string <var>$thumbnail_resolution</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#68-77" title="Go to source code">set_youtube_thumbnail_resolution</a>( <span>string <var>$thumbnail_resolution</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet hogere resolutie van YouTube-thumbnail</p>
@@ -370,7 +405,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_excluded_inline_js_content">#</a>
-			<code><a href="source-class-SIW_Compat_WP_Rocket.html#70-88" title="Go to source code">set_excluded_inline_js_content</a>( <span>array <var>$content</var></span> )</code>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#79-97" title="Go to source code">set_excluded_inline_js_content</a>( <span>array <var>$content</var></span> )</code>
 
 			<div class="description short">
 				<p>Sluit inline JS uit van combineren</p>
@@ -404,6 +439,40 @@
 			</div>
 			</div></td>
 		</tr>
+
+		<tr data-order="remove_all_purge_hooks" id="_remove_all_purge_hooks">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_remove_all_purge_hooks">#</a>
+			<code><a href="source-class-SIW_Compat_WP_Rocket.html#99-144" title="Go to source code">remove_all_purge_hooks</a>( )</code>
+
+			<div class="description short">
+				<p>Onderdrukken van automatische cache-purge</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Onderdrukken van automatische cache-purge</p>
+
+
+
+
+
+					<h4>See</h4>
+					<div class="list">
+							https://docs.wp-rocket.me/article/137-disable-all-automatic-cache-clearing<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
 			</table>
 		</div>
 
@@ -425,6 +494,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

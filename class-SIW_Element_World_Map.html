@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -126,10 +134,6 @@
 							Plato						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
-							</li>
-					<li>
 						<a href="package-SIW.Widgets.html">
 							Widgets						</a>
 							</li>
@@ -146,6 +150,9 @@
 			<h3>Classes</h3>
 			<ul>
 				<li><a href="class-SIW_Element_Carousel.html">SIW_Element_Carousel</a></li>
+				<li><a href="class-SIW_Element_Chart.html">SIW_Element_Chart</a></li>
+				<li><a href="class-SIW_Element_Google_Maps.html">SIW_Element_Google_Maps</a></li>
+				<li><a href="class-SIW_Element_Pie_Chart.html">SIW_Element_Pie_Chart</a></li>
 				<li><a href="class-SIW_Element_Taxonomy_Filter.html">SIW_Element_Taxonomy_Filter</a></li>
 				<li class="active"><a href="class-SIW_Element_World_Map.html">SIW_Element_World_Map</a></li>
 			</ul>
@@ -189,10 +196,10 @@
 				<b>Author:</b>
 				Maarten Bruna<br>
 				<b>Uses:</b>
-				<code><a href="class-SIW_Country.html">SIW_Country</a></code><br>
+				<code><a href="class-SIW_Data_Country.html">SIW_Data_Country</a></code><br>
 				<b>Uses:</b>
 				SVG\SVG<br>
-			<b>Located at</b> <a href="source-class-SIW_Element_World_Map.html#9-166" title="Go to source code">elements/class-siw-element-world-map.php</a>
+			<b>Located at</b> <a href="source-class-SIW_Element_World_Map.html#5-176" title="Go to source code">elements/class-siw-element-world-map.php</a>
 		<br>
 	</div>
 
@@ -213,7 +220,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#___construct">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#63-69" title="Go to source code">__construct</a>( )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#73-79" title="Go to source code">__construct</a>( )</code>
 
 			<div class="description short">
 				<p>Constructor</p>
@@ -243,7 +250,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_generate">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#71-88" title="Go to source code">generate</a>( <span>string|<code><a href="class-SIW_Country.html">SIW_Country</a></code> <var>$country</var></span>, <span>integer <var>$zoom</var> = <span class="php-num">1</span> </span> )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#81-98" title="Go to source code">generate</a>( <span>string|<code><a href="class-SIW_Data_Country.html">SIW_Data_Country</a></code> <var>$country</var></span>, <span>integer <var>$zoom</var> = <span class="php-num">1</span> </span> )</code>
 
 			<div class="description short">
 				<p>Genereert kaart</p>
@@ -284,7 +291,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_country">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#90-106" title="Go to source code">set_country</a>( <span>string|<code><a href="class-SIW_Country.html">SIW_Country</a></code> <var>$country</var></span> )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#100-116" title="Go to source code">set_country</a>( <span>string|<code><a href="class-SIW_Data_Country.html">SIW_Data_Country</a></code> <var>$country</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet land om in te kleuren</p>
@@ -323,7 +330,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_styles">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#108-127" title="Go to source code">set_styles</a>( )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#118-137" title="Go to source code">set_styles</a>( )</code>
 
 			<div class="description short">
 				<p>Kleur het land in</p>
@@ -357,7 +364,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_viewport">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#129-135" title="Go to source code">get_viewport</a>( )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#139-145" title="Go to source code">get_viewport</a>( )</code>
 
 			<div class="description short">
 				<p>Haal viewport van SVG op</p>
@@ -387,7 +394,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_viewbox">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#137-152" title="Go to source code">set_viewbox</a>( )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#147-162" title="Go to source code">set_viewbox</a>( )</code>
 
 			<div class="description short">
 				<p>Zet viewbox o.b.v. zoom en locatie land</p>
@@ -421,7 +428,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_calculate_offset">#</a>
-			<code><a href="source-class-SIW_Element_World_Map.html#154-164" title="Go to source code">calculate_offset</a>( <span>float <var>$coordinate</var></span> )</code>
+			<code><a href="source-class-SIW_Element_World_Map.html#164-174" title="Go to source code">calculate_offset</a>( <span>float <var>$coordinate</var></span> )</code>
 
 			<div class="description short">
 				<p>Berekent offset van coordinaat</p>
@@ -472,7 +479,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Element_World_Map.html#21-26" title="Go to source code"><var>$map_file</var></a>
+					<a href="source-class-SIW_Element_World_Map.html#17-22" title="Go to source code"><var>$map_file</var></a>
 
 				<div class="description short">
 					<p>Bestandsnaam van wereldkaart</p>
@@ -494,11 +501,11 @@
 		<tr data-order="svg" id="$svg">
 			<td class="attributes"><code>
 				protected  
-				SVG\SVG\SVG
+				SVG\SVG
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Element_World_Map.html#28-33" title="Go to source code"><var>$svg</var></a>
+					<a href="source-class-SIW_Element_World_Map.html#24-29" title="Go to source code"><var>$svg</var></a>
 
 				<div class="description short">
 					<p>SVG</p>
@@ -520,11 +527,11 @@
 		<tr data-order="doc" id="$doc">
 			<td class="attributes"><code>
 				protected  
-				SVG\SVG\SVGDocumentFragment
+				SVG\SVG\Nodes\Structures\SVGDocumentFragment
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Element_World_Map.html#35-40" title="Go to source code"><var>$doc</var></a>
+					<a href="source-class-SIW_Element_World_Map.html#31-36" title="Go to source code"><var>$doc</var></a>
 
 				<div class="description short">
 					<p>SVG-document</p>
@@ -546,11 +553,11 @@
 		<tr data-order="country" id="$country">
 			<td class="attributes"><code>
 				protected  
-				<code><a href="class-SIW_Country.html">SIW_Country</a></code>
+				<code><a href="class-SIW_Data_Country.html">SIW_Data_Country</a></code>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Element_World_Map.html#42-47" title="Go to source code"><var>$country</var></a>
+					<a href="source-class-SIW_Element_World_Map.html#38-43" title="Go to source code"><var>$country</var></a>
 
 				<div class="description short">
 					<p>Land</p>
@@ -572,11 +579,11 @@
 		<tr data-order="continent" id="$continent">
 			<td class="attributes"><code>
 				protected  
-				<code><a href="class-SIW_Continent.html">SIW_Continent</a></code>
+				<code><a href="class-SIW_Data_Continent.html">SIW_Data_Continent</a></code>
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Element_World_Map.html#49-54" title="Go to source code"><var>$continent</var></a>
+					<a href="source-class-SIW_Element_World_Map.html#45-50" title="Go to source code"><var>$continent</var></a>
 
 				<div class="description short">
 					<p>Continent</p>
@@ -602,7 +609,7 @@
 			</code></td>
 
 			<td class="name">
-					<a href="source-class-SIW_Element_World_Map.html#56-61" title="Go to source code"><var>$zoom</var></a>
+					<a href="source-class-SIW_Element_World_Map.html#52-57" title="Go to source code"><var>$zoom</var></a>
 
 				<div class="description short">
 					<p>Zoom-niveau</p>
@@ -617,6 +624,58 @@
 				<div>
 					<a href="#$zoom" class="anchor">#</a>
 					<code><span class="php-num">1</span></code>
+				</div>
+			</td>
+		</tr>
+
+		<tr data-order="width" id="$width">
+			<td class="attributes"><code>
+				protected  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SIW_Element_World_Map.html#59-64" title="Go to source code"><var>$width</var></a>
+
+				<div class="description short">
+					<p>Breedte van SVG</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Breedte van SVG</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$width" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+
+		<tr data-order="heigth" id="$heigth">
+			<td class="attributes"><code>
+				protected  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-SIW_Element_World_Map.html#66-71" title="Go to source code"><var>$heigth</var></a>
+
+				<div class="description short">
+					<p>Hoogt van SVG</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Hoogt van SVG</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$heigth" class="anchor">#</a>
+					<code></code>
 				</div>
 			</td>
 		</tr>
@@ -636,6 +695,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>

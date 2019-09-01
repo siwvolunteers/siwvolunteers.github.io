@@ -82,8 +82,8 @@
 							API						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Background.Process.html">
-							Background-Process						</a>
+						<a href="package-SIW.Batch.html">
+							Batch						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Compatibility.html">
@@ -92,6 +92,10 @@
 					<li>
 						<a href="package-SIW.Content.html">
 							Content						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Data.html">
+							Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Elements.html">
@@ -106,8 +110,12 @@
 							External						</a>
 							</li>
 					<li>
-						<a href="package-SIW.Maintenance.Mode.html">
-							Maintenance-Mode						</a>
+						<a href="package-SIW.Forms.html">
+							Forms						</a>
+							</li>
+					<li>
+						<a href="package-SIW.Functions.html">
+							Functions						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Maps.html">
@@ -124,10 +132,6 @@
 					<li>
 						<a href="package-SIW.Plato.html">
 							Plato						</a>
-							</li>
-					<li>
-						<a href="package-SIW.Reference.Data.html">
-							Reference-Data						</a>
 							</li>
 					<li>
 						<a href="package-SIW.Widgets.html">
@@ -150,14 +154,20 @@
 				<li><a href="class-SIW_WC_Admin_Product.html">SIW_WC_Admin_Product</a></li>
 				<li><a href="class-SIW_WC_Admin_Product_Columns.html">SIW_WC_Admin_Product_Columns</a></li>
 				<li><a href="class-SIW_WC_Checkout.html">SIW_WC_Checkout</a></li>
+				<li><a href="class-SIW_WC_Checkout_Discount.html">SIW_WC_Checkout_Discount</a></li>
 				<li><a href="class-SIW_WC_Checkout_Newsletter.html">SIW_WC_Checkout_Newsletter</a></li>
+				<li><a href="class-SIW_WC_Checkout_Validation.html">SIW_WC_Checkout_Validation</a></li>
+				<li><a href="class-SIW_WC_Coupon.html">SIW_WC_Coupon</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_On_Hold_Order.html">SIW_WC_Email_Customer_On_Hold_Order</a></li>
 				<li><a href="class-SIW_WC_Email_Customer_Processing_Order.html">SIW_WC_Email_Customer_Processing_Order</a></li>
 				<li><a href="class-SIW_WC_Email_New_Order.html">SIW_WC_Email_New_Order</a></li>
 				<li><a href="class-SIW_WC_Emails.html">SIW_WC_Emails</a></li>
 				<li><a href="class-SIW_WC_Import_Product.html">SIW_WC_Import_Product</a></li>
+				<li><a href="class-SIW_WC_Import_Product_Image.html">SIW_WC_Import_Product_Image</a></li>
+				<li><a href="class-SIW_WC_Order_Export.html">SIW_WC_Order_Export</a></li>
 				<li><a href="class-SIW_WC_Product.html">SIW_WC_Product</a></li>
 				<li><a href="class-SIW_WC_Product_Archive.html">SIW_WC_Product_Archive</a></li>
+				<li><a href="class-SIW_WC_Product_Tabs.html">SIW_WC_Product_Tabs</a></li>
 			</ul>
 
 
@@ -202,7 +212,9 @@
 				<code><a href="class-SIW_Util.html">SIW_Util</a></code><br>
 				<b>Uses:</b>
 				<code><a href="class-SIW_WC_Admin_Order_Columns.html">SIW_WC_Admin_Order_Columns</a></code><br>
-			<b>Located at</b> <a href="source-class-SIW_WC_Admin_Order.html#7-420" title="Go to source code">woocommerce/admin/class-siw-wc-admin-order.php</a>
+				<b>Todo:</b>
+				splitsen in Order en Admin_Order<br>
+			<b>Located at</b> <a href="source-class-SIW_WC_Admin_Order.html#3-391" title="Go to source code">woocommerce/admin/class-siw-wc-admin-order.php</a>
 		<br>
 	</div>
 
@@ -223,7 +235,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_init">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#19-42" title="Go to source code">init</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#17-38" title="Go to source code">init</a>( )</code>
 
 			<div class="description short">
 				<p>Init</p>
@@ -253,7 +265,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_checkout_sections">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#44-53" title="Go to source code">get_checkout_sections</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#40-49" title="Go to source code">get_checkout_sections</a>( )</code>
 
 			<div class="description short">
 				<p>Geeft secties met velden terug</p>
@@ -287,7 +299,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_checkout_section">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#55-68" title="Go to source code">get_checkout_section</a>( <span>string <var>$section</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#51-64" title="Go to source code">get_checkout_section</a>( <span>string <var>$section</var></span> )</code>
 
 			<div class="description short">
 				<p>Geeft velden van 1 sectie terug</p>
@@ -326,7 +338,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_get_checkout_fields">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#70-83" title="Go to source code">get_checkout_fields</a>( <span>string <var>$section</var> = <span class="php-quote">''</span> </span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#66-79" title="Go to source code">get_checkout_fields</a>( <span>string <var>$section</var> = <span class="php-quote">''</span> </span> )</code>
 
 			<div class="description short">
 				<p>Geeft checkout velden terug</p>
@@ -365,7 +377,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_admin_billing_fields">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#85-125" title="Go to source code">set_admin_billing_fields</a>( <span>array <var>$fields</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#81-121" title="Go to source code">set_admin_billing_fields</a>( <span>array <var>$fields</var></span> )</code>
 
 			<div class="description short">
 				<p>Undocumented function</p>
@@ -404,7 +416,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_localisation_address_format">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#127-136" title="Go to source code">set_localisation_address_format</a>( <span>array <var>$address_formats</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#123-132" title="Go to source code">set_localisation_address_format</a>( <span>array <var>$address_formats</var></span> )</code>
 
 			<div class="description short">
 				<p>Zet het gelokaliseerde adresformaat (van Nederland)</p>
@@ -443,7 +455,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_set_formatted_address_replacements">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#138-151" title="Go to source code">set_formatted_address_replacements</a>( <span>array <var>$replace</var></span>, <span>array <var>$args</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#134-147" title="Go to source code">set_formatted_address_replacements</a>( <span>array <var>$replace</var></span>, <span>array <var>$args</var></span> )</code>
 
 			<div class="description short">
 				<p>Undocumented function</p>
@@ -484,7 +496,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_section">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#153-189" title="Go to source code">show_section</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$section</var></span>, <span>boolean <var>$edit</var> = <span class="php-keyword1">false</span> </span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#149-185" title="Go to source code">show_section</a>( <span>WC_Order <var>$order</var></span>, <span>string <var>$section</var></span>, <span>boolean <var>$edit</var> = <span class="php-keyword1">false</span> </span> )</code>
 
 			<div class="description short">
 				<p>Toont sectie met velden</p>
@@ -523,7 +535,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_field_value">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#191-216" title="Go to source code">show_field_value</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$field</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#187-212" title="Go to source code">show_field_value</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$field</var></span> )</code>
 
 			<div class="description short">
 				<p>Toont waarde van veld</p>
@@ -560,7 +572,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_field_input">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#218-248" title="Go to source code">show_field_input</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$field</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#214-244" title="Go to source code">show_field_input</a>( <span>WC_Order <var>$order</var></span>, <span>array <var>$field</var></span> )</code>
 
 			<div class="description short">
 				<p>Toont inputveld</p>
@@ -597,7 +609,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_format_billing_address">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#250-262" title="Go to source code">format_billing_address</a>( <span>array <var>$address</var></span>, <span>WC_Order <var>$order</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#246-258" title="Go to source code">format_billing_address</a>( <span>array <var>$address</var></span>, <span>WC_Order <var>$order</var></span> )</code>
 
 			<div class="description short">
 				<p>Formatteert factuuradres</p>
@@ -634,7 +646,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_terms">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#264-285" title="Go to source code">show_terms</a>( <span>WC_Order <var>$order</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#260-281" title="Go to source code">show_terms</a>( <span>WC_Order <var>$order</var></span> )</code>
 
 			<div class="description short">
 				<p>Toont of gebruiker akkoord met inschrijfvoorwaarden is gegaan</p>
@@ -669,7 +681,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_language_meta">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#287-294" title="Go to source code">show_language_meta</a>( <span>WC_Order <var>$order</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#283-290" title="Go to source code">show_language_meta</a>( <span>WC_Order <var>$order</var></span> )</code>
 
 			<div class="description short">
 				<p>Toont taalgegevens</p>
@@ -704,7 +716,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_show_order_meta">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#296-308" title="Go to source code">show_order_meta</a>( <span>WC_Order <var>$order</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#292-304" title="Go to source code">show_order_meta</a>( <span>WC_Order <var>$order</var></span> )</code>
 
 			<div class="description short">
 				<p>Toon extra gegevens van aanmelding</p>
@@ -744,7 +756,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_process_order_meta">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#310-329" title="Go to source code">process_order_meta</a>( <span>integer <var>$post_id</var></span>, <span>WP_Post <var>$post</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#306-325" title="Go to source code">process_order_meta</a>( <span>integer <var>$post_id</var></span>, <span>WP_Post <var>$post</var></span> )</code>
 
 			<div class="description short">
 				<p>Slaat extra checkout velden op</p>
@@ -781,7 +793,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_admin_columns">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#331-341" title="Go to source code">remove_admin_columns</a>( <span>array <var>$columns</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#327-337" title="Go to source code">remove_admin_columns</a>( <span>array <var>$columns</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert overbodige admin columns</p>
@@ -820,7 +832,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_admin_columns">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#343-353" title="Go to source code">add_admin_columns</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#339-347" title="Go to source code">add_admin_columns</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt extra admin columns toe</p>
@@ -830,80 +842,6 @@
 				<p>Voegt extra admin columns toe</p>
 
 
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
-		<tr data-order="add_order_actions" id="_add_order_actions">
-
-			<td class="attributes"><code>
-				 public 
-				array
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_add_order_actions">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#355-367" title="Go to source code">add_order_actions</a>( <span>array <var>$actions</var></span> )</code>
-
-			<div class="description short">
-				<p>Voeg orderactie voor export naar Plato toe</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Voeg orderactie voor export naar Plato toe</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$actions</var></dt>
-						<dd></dd>
-					</dl></div>
-
-					<h4>Returns</h4>
-					<div class="list">
-						array
-					</div>
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-
-		<tr data-order="export_application_to_plato" id="_export_application_to_plato">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_export_application_to_plato">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#369-376" title="Go to source code">export_application_to_plato</a>( <span>integer <var>$order_id</var></span> )</code>
-
-			<div class="description short">
-				<p>Exporteert aanmelding naar plato</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>Exporteert aanmelding naar plato</p>
-
-
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$order_id</var></dt>
-						<dd></dd>
-					</dl></div>
 
 
 
@@ -924,7 +862,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_order_actions">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#378-388" title="Go to source code">remove_order_actions</a>( <span>array <var>$actions</var></span> )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#349-359" title="Go to source code">remove_order_actions</a>( <span>array <var>$actions</var></span> )</code>
 
 			<div class="description short">
 				<p>Verwijdert overbodige order actions</p>
@@ -963,7 +901,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_add_inline_style">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#390-405" title="Go to source code">add_inline_style</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#361-376" title="Go to source code">add_inline_style</a>( )</code>
 
 			<div class="description short">
 				<p>Voegt styling voor help tips toe</p>
@@ -993,7 +931,7 @@
 
 			<td class="name"><div>
 			<a class="anchor" href="#_remove_meta_boxes">#</a>
-			<code><a href="source-class-SIW_WC_Admin_Order.html#407-417" title="Go to source code">remove_meta_boxes</a>( )</code>
+			<code><a href="source-class-SIW_WC_Admin_Order.html#378-388" title="Go to source code">remove_meta_boxes</a>( )</code>
 
 			<div class="description short">
 				<p>Verwijdert overbodige meta-boxes</p>
@@ -1032,6 +970,6 @@
 	</div>
 </div>
 <script src="resources/combined.js?137cc7fd05d1d0b2cfb58d474cabfbe861016f1e"></script>
-<script src="elementlist.js?c3745e656d9fa0bdb418909122fbde83acd434d5"></script>
+<script src="elementlist.js?dd3943038ffea7380e66d3b483b6d67c6da20fe1"></script>
 </body>
 </html>
